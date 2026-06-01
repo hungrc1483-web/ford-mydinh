@@ -377,22 +377,14 @@ img.emoji {
   // ===== CẤU HÌNH EMAILJS =====
   // Sau khi đăng ký tại https://www.emailjs.com/
   // Điền 3 thông số dưới đây:
-  var EMAILJS_PUBLIC_KEY  = "PHP_MAILER";   // Account > API Keys > Public Key
+  var EMAILJS_PUBLIC_KEY  = "DrqV6aEv1G3pWmcAS";   // Account > API Keys > Public Key
   var EMAILJS_SERVICE_ID  = "service_1cl6v1p";   // Email Services > Service ID
   var EMAILJS_TEMPLATE_ID = "template_el174ig";  // Email Templates > Template ID
   // ============================
   (function() {
     if (typeof emailjs !== 'undefined') {
       emailjs.init(EMAILJS_PUBLIC_KEY);
-      // Chuyá»ƒn hÆ°á»›ng email gá»­i qua PHP Mailer ná»™i bá»™
-      emailjs.send = function(serviceId, templateId, params) {
-        return fetch('/sendmail.php', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(params)
-        });
-      };
-    }
+      }
   })();
 </script>
 </head><body data-rsssl=1 class="archive post-type-archive post-type-archive-product theme-flatsome woocommerce woocommerce-page woocommerce-no-js lightbox nav-dropdown-has-arrow">
