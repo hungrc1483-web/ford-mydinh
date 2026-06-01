@@ -1,0 +1,4 @@
+# Ignore backups
+*.bak
+*.tmp
+index.html.bak
