@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE 9 ]><html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
 <!--[if IE 8 ]><html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]--><head>
@@ -377,13 +377,21 @@ img.emoji {
   // ===== CẤU HÌNH EMAILJS =====
   // Sau khi đăng ký tại https://www.emailjs.com/
   // Điền 3 thông số dưới đây:
-  var EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // Account > API Keys > Public Key
+  var EMAILJS_PUBLIC_KEY  = "PHP_MAILER";   // Account > API Keys > Public Key
   var EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // Email Services > Service ID
   var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // Email Templates > Template ID
   // ============================
   (function() {
     if (typeof emailjs !== 'undefined') {
       emailjs.init(EMAILJS_PUBLIC_KEY);
+      // Chuyá»ƒn hÆ°á»›ng email gá»­i qua PHP Mailer ná»™i bá»™
+      emailjs.send = function(serviceId, templateId, params) {
+        return fetch('/sendmail.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(params)
+        });
+      };
     }
   })();
 </script>
@@ -484,7 +492,7 @@ Showing 1&ndash;12 of 17 results</p><form class="woocommerce-ordering" method="g
 <span class="price"><span class="woocommerce-Price-amount amount">907.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></span></div></div></div></div></div><div class="product-small col has-hover product type-product post-1206 status-publish last instock product_cat-ford-ranger-2026 product_cat-san-pham has-post-thumbnail shipping-taxable product-type-simple"><div class="col-inner"><div class="badge-container absolute left top z-1"></div><div class="product-small box "><div class="box-image"><div class="image-zoom">
 <a href="../san-pham/ranger-wildtrak-3-0l-at-4-4/index.html">
 <img width="450" height="270" src="../wp-content/uploads/2019/12/ranger-wildtrak-orange-450x270.webp" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Ford Ranger Wildtrak 3.0L AT 4X4 Mới màu cam"  />				</a></div><div class="image-tools is-small top right show-on-hover"></div><div class="image-tools is-small hide-for-small bottom left show-on-hover"></div><div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover"></div></div><div class="box-text box-text-products text-center grid-style-2"><div class="title-wrapper"><p class="name product-title"><a href="../san-pham/ranger-wildtrak-3-0l-at-4-4/index.html">Ford Ranger Wildtrak 3.0L AT 4X4 Mới</a></p></div><div class="price-wrapper">
-<span class="price"><span class="woocommerce-Price-amount amount">1.093.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></span></div></div></div></div></div></div><div class="container"><nav class="woocommerce-pagination"><ul class="page-numbers nav-pagination links text-center"><li><span aria-current="page" class="page-number current">1</span></li><li><a class="page-number" href="../shop/index.htmlpage/2/index.html">2</a></li><li><a class="next page-number" href="../shop/index.htmlpage/2/index.html"><i class="icon-angle-right"></i></a></li></ul></nav></div></div></div></div></main><footer id="footer" class="footer-wrapper"><div class="footer-widgets footer footer-2 dark"><div class="row dark large-columns-3 mb-0"><div id="custom_html-6" class="widget_text col pb-0 widget widget_custom_html"><span class="widget-title">Ford Mỹ Đình</span><div class="is-divider small"></div><div class="textwidget custom-html-widget"><p>Mỹ Đình Ford là đại lý ủy quyền chính hãng của Ford Việt Nam. Vui lòng liên hệ để được tư vấn và báo giá tất cả các dòng xe Ford</p><p><strong><i class="fas fa-phone"></i> Phone:</strong> 0586.765.567</p><p><strong><i class="fas fa-home"></i> Địa chỉ:</strong> Số 1 Trịnh Văn Bô, Phường Xuân Phương, Thành Phố Hà Nội</p><p><strong><i class="fas fa-envelope"></i> Email:</strong> hoanglongle1993@gmail.com</p></div></div><div id="nav_menu-2" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Dịch vụ khách hàng</span><div class="is-divider small"></div><div class="menu-dich-vu-khach-hang-container"><ul id="menu-dich-vu-khach-hang" class="menu"><li id="menu-item-1815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1815"><a href="../mua-tra-gop/index.html">Mua trả góp</a></li><li id="menu-item-1816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1816"><a href="../tu-van-bao-hiem/index.html">Tư vấn Bảo hiểm</a></li><li id="menu-item-1818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1818"><a href="#" onclick="return openBaoGiaModal();">Yêu cầu báo giá</a></li><li id="menu-item-1817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1817"><a href="../dang-ky-lai-thu/index.html">Đăng ký lái thử</a></li></ul></div></div><div id="custom_html-7" class="widget_text col pb-0 widget widget_custom_html"><span class="widget-title">Facebook</span><div class="is-divider small"></div><div class="textwidget custom-html-widget"></div></div></div></div><div class="absolute-footer dark medium-text-center small-text-center"><div class="container clearfix"><div class="footer-primary pull-left"><div class="copyright-footer"></div></div></div></div><style>
+<span class="price"><span class="woocommerce-Price-amount amount">1.093.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></span></div></div></div></div></div></div><div class="container"><nav class="woocommerce-pagination"><ul class="page-numbers nav-pagination links text-center"><li><span aria-current="page" class="page-number current">1</span></li><li><a class="page-number" href="../shop/index.htmlpage/2/index.html">2</a></li><li><a class="next page-number" href="../shop/index.htmlpage/2/index.html"><i class="icon-angle-right"></i></a></li></ul></nav></div></div></div></div></main><footer id="footer" class="footer-wrapper"><div class="footer-widgets footer footer-2 dark"><div class="row dark large-columns-3 mb-0"><div id="custom_html-6" class="widget_text col pb-0 widget widget_custom_html"><span class="widget-title">Ford Mỹ Đình</span><div class="is-divider small"></div><div class="textwidget custom-html-widget"><p>Mỹ Đình Ford là đại lý ủy quyền chính hãng của Ford Việt Nam. Vui lòng liên hệ để được tư vấn và báo giá tất cả các dòng xe Ford</p><p><strong><i class="fas fa-phone"></i> Phone:</strong> 0586.765.567</p><p><strong><i class="fas fa-home"></i> Địa chỉ:</strong> Số 1 Trịnh Văn Bô, Phường Xuân Phương, Thành Phố Hà Nội</p><p><strong><i class="fas fa-envelope"></i> Email:</strong> manhhungfordmydinh@gmail.com</p></div></div><div id="nav_menu-2" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Dịch vụ khách hàng</span><div class="is-divider small"></div><div class="menu-dich-vu-khach-hang-container"><ul id="menu-dich-vu-khach-hang" class="menu"><li id="menu-item-1815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1815"><a href="../mua-tra-gop/index.html">Mua trả góp</a></li><li id="menu-item-1816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1816"><a href="../tu-van-bao-hiem/index.html">Tư vấn Bảo hiểm</a></li><li id="menu-item-1818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1818"><a href="#" onclick="return openBaoGiaModal();">Yêu cầu báo giá</a></li><li id="menu-item-1817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1817"><a href="../dang-ky-lai-thu/index.html">Đăng ký lái thử</a></li></ul></div></div><div id="custom_html-7" class="widget_text col pb-0 widget widget_custom_html"><span class="widget-title">Facebook</span><div class="is-divider small"></div><div class="textwidget custom-html-widget"></div></div></div></div><div class="absolute-footer dark medium-text-center small-text-center"><div class="container clearfix"><div class="footer-primary pull-left"><div class="copyright-footer"></div></div></div></div><style>
 .yeu-cau-bao-gia {
   position: fixed;
   right: 15px;
@@ -748,3 +756,4 @@ document.getElementById('bao-gia-modal').addEventListener('click', function(e) {
 </body></html>
 <!-- Page optimized by LiteSpeed Cache @2026-05-29 14:24:29 -->
 <!-- Page generated by LiteSpeed Cache 4.5.0.1 on 2026-05-29 14:24:29 -->
+

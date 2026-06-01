@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
 <!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
@@ -451,13 +451,21 @@ img.emoji {
   // ===== CẤU HÌNH EMAILJS =====
   // Sau khi đăng ký tại https://www.emailjs.com/
   // Điền 3 thông số dưới đây:
-  var EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // Account > API Keys > Public Key
+  var EMAILJS_PUBLIC_KEY  = "PHP_MAILER";   // Account > API Keys > Public Key
   var EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // Email Services > Service ID
   var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // Email Templates > Template ID
   // ============================
   (function() {
     if (typeof emailjs !== 'undefined') {
       emailjs.init(EMAILJS_PUBLIC_KEY);
+      // Chuyá»ƒn hÆ°á»›ng email gá»­i qua PHP Mailer ná»™i bá»™
+      emailjs.send = function(serviceId, templateId, params) {
+        return fetch('/sendmail.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(params)
+        });
+      };
     }
   })();
 </script>
@@ -623,7 +631,7 @@ img.emoji {
 
 <p><strong><i class="fas fa-home"></i> Địa chỉ:</strong> Số 1 Trịnh Văn Bô, Phường Xuân Phương, Thành Phố Hà Nội</p>
 
-<p><strong><i class="fas fa-envelope"></i> Email:</strong> hoanglongle1993@gmail.com</p>
+<p><strong><i class="fas fa-envelope"></i> Email:</strong> manhhungfordmydinh@gmail.com</p>
 
 </div></div><div id="nav_menu-2" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Dịch vụ khách hàng</span><div class="is-divider small"></div><div class="menu-dich-vu-khach-hang-container"><ul id="menu-dich-vu-khach-hang" class="menu"><li id="menu-item-1815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1815"><a href="../mua-tra-gop/index.html">Mua trả góp</a></li>
 <li id="menu-item-1816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1816"><a href="../tu-van-bao-hiem/index.html">Tư vấn Bảo hiểm</a></li>
@@ -1075,3 +1083,4 @@ document.getElementById('bao-gia-modal').addEventListener('click', function(e) {
 </html>
 
 <!-- Page uncached by LiteSpeed Cache 4.5.0.1 on 2026-05-29 14:24:28 -->
+
