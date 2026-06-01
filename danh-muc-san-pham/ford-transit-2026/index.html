@@ -377,6 +377,17 @@ img.emoji {
       emailjs.init(EMAILJS_PUBLIC_KEY);
       }
   })();
+  // Tự động xóa tham số theo dõi fbclid của Facebook trên thanh địa chỉ để đường link luôn ngắn gọn, chuyên nghiệp
+  (function() {
+    if (window.history.replaceState && window.location.search) {
+      var url = new URL(window.location.href);
+      if (url.searchParams.has('fbclid')) {
+        url.searchParams.delete('fbclid');
+        var cleanUrl = url.pathname + url.search + url.hash;
+        window.history.replaceState({}, document.title, cleanUrl);
+      }
+    }
+  })();
 </script>
 </head><body data-rsssl=1 class="archive tax-product_cat term-ford-transit-2026 term-71 theme-flatsome woocommerce woocommerce-page woocommerce-no-js lightbox nav-dropdown-has-arrow">
 <!-- GTM noscript Disabled Offline --><a class="skip-link screen-reader-text" href="#main">Skip to content</a><div id="wrapper"><header id="header" class="header has-sticky sticky-jump"><div class="header-wrapper"><div id="top-bar" class="header-top hide-for-medium" style="background-color: #0352a4 !important; min-height: 30px;">
