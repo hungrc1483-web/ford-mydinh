@@ -1374,12 +1374,9 @@ document.getElementById('bao-gia-modal').addEventListener('click', function(e) {
       }
     }, 4000);
 
-    // 3. Auto open registration modal after 10 seconds (if not submitted and not chatbox open)
+    // 3. Auto open registration modal after 10 seconds (if not submitted)
     setTimeout(function() {
       if (sessionStorage.getItem('modal_submitted_ford_mydinh') || sessionStorage.getItem('chat_submitted_ford_mydinh')) return;
-      var box = document.getElementById('webxeChatBox');
-      // If chatbox is already open, don't show the modal
-      if (box && box.style.display === 'flex') return;
       window.openYcbgModal();
     }, 10000);
 
@@ -1392,8 +1389,6 @@ document.getElementById('bao-gia-modal').addEventListener('click', function(e) {
         }
         // Small delay to ensure they are clicking inside the page and not a button that does something else
         setTimeout(function() {
-          var box = document.getElementById('webxeChatBox');
-          if (box && box.style.display === 'flex') return; // skip if chat box is active
           window.openYcbgModal();
         }, 100);
         document.removeEventListener('click', docClickListener);
