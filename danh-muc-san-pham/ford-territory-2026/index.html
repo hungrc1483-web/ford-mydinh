@@ -729,6 +729,692 @@ document.getElementById('bao-gia-modal').addEventListener('click', function(e) {
 });
 </script>
 <!-- ===== END POPUP NHẬN BÁO GIÁ ===== -->
+
+<!-- ========================================== -->
+<!-- WEBXE INTERACTIVE POPUPS & CHATBOX INTEGRATION -->
+<!-- ========================================== -->
+<style type="text/css">
+/* --- 1. CHATBOX TƯƠNG TÁC CSS --- */
+.webxe-chat-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999999;
+  font-family: Arial, sans-serif;
+}
+.chat-bubble {
+  width: 55px !important;
+  height: 65px !important;
+  border-radius: 8px !important;
+  background: #111;
+  border: 1px solid #333;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.chat-bubble img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0 !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+.chat-box {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 450px;
+  background: #111111;
+  border: 1px solid #222;
+  border-radius: 14px 14px 0px 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  overflow: hidden;
+}
+.chat-header {
+  background: #1a1a1a;
+  border-bottom: 1px solid #282828;
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sale-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sale-info img {
+  width: 38px !important;
+  height: 48px !important;
+  border-radius: 4px !important;
+  border: 1px solid #333;
+  object-fit: cover !important;
+  display: block !important;
+}
+.sale-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.sale-info p {
+  margin: 0;
+  font-size: 11px;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+.status-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #2ecc71;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.minimize-chat {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 5px;
+  line-height: 10px;
+}
+.minimize-chat:hover {
+  color: #fff;
+}
+.chat-body {
+  padding: 12px;
+  flex: 1;
+  overflow-y: auto;
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.msg-bot, .msg-user {
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  max-width: 85%;
+  margin-bottom: 2px;
+}
+.msg-bot {
+  background: #222222;
+  color: #e0e0e0;
+  align-self: flex-start;
+  border: 1px solid #2d2d2d;
+}
+.msg-user {
+  background: #0b4f87;
+  color: #fff;
+  align-self: flex-end;
+  font-weight: bold;
+}
+.msg-focus-alert {
+  background: #2a2415 !important;
+  color: #f1c40f !important;
+  border: 1px solid #4a3b1a !important;
+}
+.chat-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 4px;
+}
+.chat-options-grid button {
+  background: #1e1e1e;
+  border: 1px solid #2d2d2d;
+  color: #ccc;
+  padding: 11px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.chat-options-grid button:hover {
+  border-color: #0b4f87;
+  color: #fff;
+  background: #0b4f8720;
+}
+.chat-footer {
+  padding: 8px;
+  border-top: 1px solid #222;
+  background: #1a1a1a;
+}
+.chat-footer form {
+  display: flex;
+  gap: 5px;
+}
+.chat-footer input {
+  flex: 1;
+  padding: 8px 12px;
+  background: #262626;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+.chat-footer input::placeholder {
+  color: #666;
+}
+.chat-footer button {
+  background: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 0 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+.pulse-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #333;
+  border-radius: 8px;
+  animation: cPulse 2s infinite;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.unread-dot {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  z-index: 2;
+}
+@keyframes shakeBox {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+  100% { transform: translateX(0); }
+}
+.shake-effect {
+  animation: shakeBox 0.4s ease-in-out;
+}
+@keyframes cPulse {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.2); opacity: 0; }
+}
+
+/* --- 2. MODAL NHẬN ƯU ĐÃI CSS --- */
+.modal-customize {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.modal-customize .modal-dialog {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+  margin: 15px;
+  overflow: hidden;
+}
+.modal-customize .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  z-index: 10;
+  line-height: 1;
+}
+.modal-customize .close:hover {
+  color: #000;
+}
+.modal-customize .modal-body {
+  padding: 30px 25px 25px 25px;
+  box-sizing: border-box;
+}
+.modal-customize .modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.modal-customize .form-group-radio {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.modal-customize .form-group-radio label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.modal-customize .form-group-radio input[type="radio"] {
+  accent-color: #9c27b0;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  cursor: pointer;
+}
+.modal-customize .form-inputs-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .modal-customize .form-inputs-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.modal-customize .form-inputs-row input,
+.modal-customize .form-inputs-row select {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+}
+.modal-customize .btn-submit-ycbg {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  background: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 11px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s;
+}
+.modal-customize .btn-submit-ycbg:hover {
+  background: #e03d00;
+}
+.modal-customize .success-message {
+  text-align: center;
+  padding: 20px 0;
+}
+.modal-customize .success-message h5 {
+  color: #2ecc71;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.modal-customize .success-message p {
+  color: #555;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .webxe-chat-wrapper {
+    left: 5%;
+    right: 5%;
+    bottom: 15px;
+  }
+  .chat-box {
+    position: fixed;
+    left: 5%;
+    width: 90%;
+    height: 50vh;
+    bottom: 15px;
+    border-radius: 14px 14px 0px 0px;
+  }
+  .chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+</style>
+
+<!-- 3. CHATBOX & MODAL HTML STRUCTURE -->
+<div class="webxe-chat-wrapper">
+  <div class="chat-bubble" id="webxeChatBubble" onclick="toggleWebxeChat()">
+    <img alt="Mạnh Hùng" src="/wp-content/uploads/2026/05/hoang-long-ford-hn-avatar-sidebar.webp" />
+    <span class="unread-dot">1</span>
+    <div class="pulse-ring"></div>
+  </div>
+  <div class="chat-box" id="webxeChatBox">
+    <div class="chat-header">
+      <div class="sale-info">
+        <img alt="Mạnh Hùng" src="/wp-content/uploads/2026/05/hoang-long-ford-hn-avatar-sidebar.webp" />
+        <div>
+          <h4>Mạnh Hùng</h4>
+          <p><span class="status-dot"></span>Đang online - Ford Mỹ Đình</p>
+        </div>
+      </div>
+      <button class="minimize-chat" onclick="toggleWebxeChat()">_</button>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="msg-bot">Em chào Anh/Chị! Em là Mạnh Hùng - Đại diện phòng kinh doanh Ford Mỹ Đình. Anh/Chị đang quan tâm dòng xe nào của Ford ạ?</div>
+      <div class="chat-options-grid" id="mainOptionsContainer">
+        <button onclick="selectCustomerNeed('car', 'Ranger')">Ranger</button>
+        <button onclick="selectCustomerNeed('car', 'Everest')">Everest</button>
+        <button onclick="selectCustomerNeed('car', 'Territory')">Territory</button>
+        <button onclick="selectCustomerNeed('car', 'Explorer')">Explorer</button>
+        <button onclick="selectCustomerNeed('car', 'Transit')">Transit</button>
+        <button onclick="selectCustomerNeed('unknown', 'Cần tư vấn xe khác')">Dòng xe khác</button>
+      </div>
+    </div>
+    <div class="chat-footer" id="chatFooter" style="display: none;">
+      <form id="leadChatForm" onsubmit="submitChatPhone(event)">
+        <input id="chatPhoneInput" placeholder="Số Zalo nhận ưu đãi..." required type="tel" />
+        <button type="submit">Gửi</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="modalItemYcbg" class="modal-customize">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="close" onclick="closeYcbgModal()">&times;</button>
+      <div class="modal-body">
+        <h4 class="modal-title">Đăng ký tư vấn - nhận ưu đãi</h4>
+        <form id="ycbgModalForm" onsubmit="submitYcbgForm(event)">
+          <div class="form-group-radio">
+            <label><input type="radio" name="contact_type" value="Gọi lại" checked /> Gọi lại</label>
+            <label><input type="radio" name="contact_type" value="Zalo" /> Zalo</label>
+          </div>
+          <div class="form-inputs-row">
+            <input type="tel" id="ycbgPhone" placeholder="Số Điện thoại (*)" required />
+            <select id="ycbgCar">
+              <option value="">Chọn dòng xe</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Everest">Everest</option>
+              <option value="Territory">Territory</option>
+              <option value="Explorer">Explorer</option>
+              <option value="Transit">Transit</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-submit-ycbg">Gửi yêu cầu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. CHATBOX & MODAL JS LOGIC -->
+<script type="text/javascript">
+(function() {
+  var selectedCar = "";
+  var modalShown = false;
+
+  window.toggleWebxeChat = function() {
+    var box = document.getElementById('webxeChatBox');
+    var bubble = document.getElementById('webxeChatBubble');
+    if (!box || !bubble) return;
+    if (box.style.display === 'none' || box.style.display === '') {
+      box.style.display = 'flex';
+      bubble.style.display = 'none';
+      var dot = bubble.querySelector('.unread-dot');
+      if (dot) dot.style.display = 'none';
+    } else {
+      box.style.display = 'none';
+      bubble.style.display = 'block';
+    }
+  };
+
+  window.alertCustomer = function() {
+    if (navigator.vibrate) {
+      try { navigator.vibrate([150, 100, 150]); } catch(e) {}
+    }
+    var box = document.getElementById('webxeChatBox');
+    if (box) {
+      box.classList.add('shake-effect');
+      setTimeout(function() {
+        box.classList.remove('shake-effect');
+      }, 500);
+    }
+  };
+
+  window.selectCustomerNeed = function(type, name) {
+    var body = document.getElementById('chatBody');
+    var optionsGrid = document.getElementById('mainOptionsContainer');
+    if (!body || !optionsGrid) return;
+    
+    var uMsg = document.createElement('div');
+    uMsg.className = 'msg-user';
+    uMsg.innerText = type === 'car' ? 'Tôi đang quan tâm dòng ' + name : 'Tôi cần tư vấn dòng xe khác';
+    body.appendChild(uMsg);
+    
+    optionsGrid.style.display = 'none';
+    body.scrollTop = body.scrollHeight;
+    selectedCar = name;
+
+    setTimeout(function() {
+      var bMsg = document.createElement('div');
+      bMsg.className = 'msg-bot msg-focus-alert';
+      if (type === 'car') {
+        bMsg.innerHTML = 'Dạ, Anh/Chị cho em xin số Zalo để em gửi bảng giá lăn bánh và chính sách ưu đãi dòng <strong>Ford ' + name + '</strong> qua Zalo ngay nhé ạ!';
+      } else {
+        bMsg.innerHTML = 'Dạ, Anh/Chị cho em xin số Zalo để em gửi bảng giá lăn bánh và chính sách ưu đãi xe Ford qua Zalo ngay nhé ạ!';
+      }
+      body.appendChild(bMsg);
+      window.alertCustomer();
+      
+      var footer = document.getElementById('chatFooter');
+      if (footer) footer.style.display = 'block';
+      body.scrollTop = body.scrollHeight;
+    }, 800);
+  };
+
+  window.submitChatPhone = function(e) {
+    e.preventDefault();
+    var phoneInput = document.getElementById('chatPhoneInput');
+    if (!phoneInput) return;
+    var phone = phoneInput.value.trim();
+    
+    var phoneRegex = /((09|03|07|08|05)+([0-9]{8})\b)/g;
+    if (!phoneRegex.test(phone)) {
+      alert("Số điện thoại không đúng định dạng. Vui lòng nhập đủ 10 số!");
+      return;
+    }
+    
+    var footer = document.getElementById('chatFooter');
+    if (footer) {
+      footer.innerHTML = '<div style="color:#fff;text-align:center;font-size:13px;padding:5px;">Đang gửi thông tin...</div>';
+    }
+
+    if (typeof emailjs !== 'undefined') {
+      emailjs.send("service_1cl6v1p", "template_el174ig", {
+        form_type: 'Chatbox Tương Tác',
+        to_email: 'manhhungfordmydinh@gmail.com',
+        from_name: 'Khách hàng Zalo',
+        phone: phone,
+        car_model: selectedCar || 'Chưa chọn',
+        message: 'Khách hàng quan tâm dòng xe ' + (selectedCar || 'Chưa chọn') + ' và yêu cầu gửi báo giá qua Zalo.'
+      }).then(function() {
+        sessionStorage.setItem('chat_submitted_ford_mydinh', '1');
+        if (footer) {
+          footer.innerHTML = '<div style="color:#2ecc71;text-align:center;font-size:13px;font-weight:bold;padding:5px;">✓ Đã gửi! Em sẽ liên hệ qua Zalo ngay ạ.</div>';
+        }
+        if (typeof gtag === 'function') {
+          gtag('event', 'generate_lead_chat', {
+            'send_to': 'G-W66Z1NTF46',
+            'chat_id': 'ford-mydinh-chatbox',
+            'car_selected': selectedCar
+          });
+        }
+        setTimeout(function() {
+          var wrapper = document.querySelector('.webxe-chat-wrapper');
+          if (wrapper) wrapper.style.display = 'none';
+        }, 2000);
+      }, function(error) {
+        if (footer) {
+          footer.innerHTML = '<div style="color:#ffcc00;text-align:center;font-size:12px;padding:5px;">Lỗi gửi. Vui lòng gọi 0586.765.567!</div>';
+        }
+      });
+    } else {
+      if (footer) {
+        footer.innerHTML = '<div style="color:#ffcc00;text-align:center;font-size:12px;padding:5px;">Lỗi kết nối. Vui lòng gọi 0586.765.567!</div>';
+      }
+    }
+  };
+
+  window.openYcbgModal = function() {
+    if (sessionStorage.getItem('modal_submitted_ford_mydinh') || sessionStorage.getItem('chat_submitted_ford_mydinh')) return;
+    if (modalShown) return;
+    var modal = document.getElementById('modalItemYcbg');
+    if (modal) {
+      modal.style.display = 'flex';
+      modalShown = true;
+    }
+  };
+
+  window.closeYcbgModal = function() {
+    var modal = document.getElementById('modalItemYcbg');
+    if (modal) modal.style.display = 'none';
+  };
+
+  window.submitYcbgForm = function(e) {
+    e.preventDefault();
+    var phoneInput = document.getElementById('ycbgPhone');
+    var carInput = document.getElementById('ycbgCar');
+    var contactTypeRadio = document.querySelector('input[name="contact_type"]:checked');
+    var contactType = contactTypeRadio ? contactTypeRadio.value : 'Gọi lại';
+    
+    if (!phoneInput) return;
+    var phone = phoneInput.value.trim();
+    var car = carInput ? carInput.value : 'Chưa chọn';
+    
+    var phoneRegex = /((09|03|07|08|05)+([0-9]{8})\b)/g;
+    if (!phoneRegex.test(phone)) {
+      alert("Số điện thoại không đúng định dạng. Vui lòng nhập đủ 10 số!");
+      return;
+    }
+    
+    var form = document.getElementById('ycbgModalForm');
+    var modalBody = document.querySelector('#modalItemYcbg .modal-body');
+    if (form) form.style.opacity = '0.5';
+
+    if (typeof emailjs !== 'undefined') {
+      emailjs.send("service_1cl6v1p", "template_el174ig", {
+        form_type: 'Popup Đăng Ký Tư Vấn',
+        to_email: 'manhhungfordmydinh@gmail.com',
+        from_name: 'Khách hàng đăng ký (' + contactType + ')',
+        phone: phone,
+        car_model: car || 'Chưa chọn',
+        message: 'Khách hàng yêu cầu tư vấn: ' + contactType + '. Dòng xe quan tâm: ' + car
+      }).then(function() {
+        sessionStorage.setItem('modal_submitted_ford_mydinh', '1');
+        if (modalBody) {
+          modalBody.innerHTML = '<div class="success-message"><h5>✓ Gửi yêu cầu thành công!</h5><p>Mạnh Hùng sẽ liên hệ với bạn trong thời gian sớm nhất.</p></div>';
+        }
+        if (typeof gtag === 'function') {
+          gtag('event', 'generate_lead_chat', {
+            'send_to': 'G-W66Z1NTF46',
+            'chat_id': 'ford-mydinh-popup-modal',
+            'car_selected': car
+          });
+        }
+        setTimeout(window.closeYcbgModal, 3000);
+      }, function(error) {
+        alert("Gửi yêu cầu thất bại. Vui lòng liên hệ Hotline: 0586.765.567!");
+        if (form) form.style.opacity = '1';
+      });
+    } else {
+      alert("Gửi yêu cầu thất bại. Vui lòng liên hệ Hotline: 0586.765.567!");
+      if (form) form.style.opacity = '1';
+    }
+  };
+
+  // --- AUTOMATED TRIGGER LOGIC ---
+  document.addEventListener('DOMContentLoaded', function() {
+    // 1. Check if already submitted
+    if (sessionStorage.getItem('chat_submitted_ford_mydinh')) {
+      var wrapper = document.querySelector('.webxe-chat-wrapper');
+      if (wrapper) wrapper.style.display = 'none';
+      return;
+    }
+
+    // 2. Auto open chatbox after 4 seconds
+    setTimeout(function() {
+      if (sessionStorage.getItem('chat_submitted_ford_mydinh')) return;
+      var box = document.getElementById('webxeChatBox');
+      var bubble = document.getElementById('webxeChatBubble');
+      if (box && box.style.display !== 'flex') {
+        box.style.display = 'flex';
+        if (bubble) bubble.style.display = 'none';
+      }
+    }, 4000);
+
+    // 3. Auto open registration modal after 10 seconds (if not submitted and not chatbox open)
+    setTimeout(function() {
+      if (sessionStorage.getItem('modal_submitted_ford_mydinh') || sessionStorage.getItem('chat_submitted_ford_mydinh')) return;
+      var box = document.getElementById('webxeChatBox');
+      // If chatbox is already open, don't show the modal
+      if (box && box.style.display === 'flex') return;
+      window.openYcbgModal();
+    }, 10000);
+
+    // 4. Trigger modal when clicking anywhere on product pages
+    if (window.location.pathname.indexOf('/san-pham/') !== -1) {
+      var docClickListener = function() {
+        if (sessionStorage.getItem('modal_submitted_ford_mydinh') || sessionStorage.getItem('chat_submitted_ford_mydinh')) {
+          document.removeEventListener('click', docClickListener);
+          return;
+        }
+        // Small delay to ensure they are clicking inside the page and not a button that does something else
+        setTimeout(function() {
+          var box = document.getElementById('webxeChatBox');
+          if (box && box.style.display === 'flex') return; // skip if chat box is active
+          window.openYcbgModal();
+        }, 100);
+        document.removeEventListener('click', docClickListener);
+      };
+      document.addEventListener('click', docClickListener);
+    }
+  });
+})();
+</script>
 </body></html>
 <!-- Page optimized by LiteSpeed Cache @2026-05-29 14:24:18 -->
 <!-- Page generated by LiteSpeed Cache 4.5.0.1 on 2026-05-29 14:24:18 -->
