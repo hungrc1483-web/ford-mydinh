@@ -5,10 +5,15 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Lấy dữ liệu gửi lên từ form dạng JSON
+    // Lấy dữ liệu gửi lên từ form (hỗ trợ cả JSON và URL-encoded)
     $data = json_decode(file_get_contents('php://input'), true);
     
-    if (!$data) {
+    // Fallback: nếu không phải JSON, đọc từ $_POST (URL-encoded từ all.min.js)
+    if (!$data || empty($data)) {
+        $data = $_POST;
+    }
+    
+    if (!$data || empty($data)) {
         echo json_encode(["success" => false, "message" => "Không nhận được dữ liệu"]);
         exit;
     }
@@ -37,11 +42,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $car = isset($data['frm_item_class_3']) ? htmlspecialchars($data['frm_item_class_3']) : 'Không chọn';
     }
     
+    // Xử lý form frm_mic_support (Yêu cầu tư vấn qua điện thoại)
+    if (isset($data['c_mgs_phone'])) {
+        $form_type = 'Yêu cầu tư vấn qua điện thoại (Gọi lại)';
+        $phone = htmlspecialchars($data['c_mgs_phone']);
+        $name = isset($data['c_mgs_name']) ? htmlspecialchars($data['c_mgs_name']) : 'Khách hàng ẩn danh';
+        $car = isset($data['c_mgs_class']) ? htmlspecialchars($data['c_mgs_class']) : 'Không chọn';
+        $extra = isset($data['c_mgs_comment']) ? 'Nội dung: ' . htmlspecialchars($data['c_mgs_comment']) : '';
+    }
+    
     // Email đích nhận thông tin đăng ký của bạn
     $to = 'manhhungfordmydinh@gmail.com';
     
     // Tiêu đề email
-    $subject = "=?UTF-8?B?".base64_encode("[Web Ford Bắc Ninh] Khách hàng mới: $name ($phone)")."?=";
+    $subject = "=?UTF-8?B?".base64_encode("[Web Ford Mỹ Đình] Khách hàng mới: $name ($phone)")."?=";
     
     // Nội dung chi tiết trong email
     $body = "Bạn có một yêu cầu mới từ website:\n\n";
@@ -54,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $body .= "$extra\n";
     }
     $body .= "--------------------------------------\n";
-    $body .= "Email này được gửi tự động từ website Ford Bắc Ninh.";
+    $body .= "Email này được gửi tự động từ website Ford Mỹ Đình.";
     
     // Cấu hình Header gửi thư
     $headers = "From: Webmaster <no-reply@ford-mydinh.io.vn>\r\n";
@@ -64,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $headers .= "X-Mailer: PHP/" . phpversion();
     
     // Tiến hành gửi thư bằng hàm mail của PHP Server
-    if (mail($to, $subject, $body, $headers)) {
+    if (@mail($to, $subject, $body, $headers)) {
         echo json_encode(["success" => true, "message" => "Gửi email thành công"]);
     } else {
         echo json_encode(["success" => false, "message" => "Không thể gửi email bằng server mail nội bộ"]);

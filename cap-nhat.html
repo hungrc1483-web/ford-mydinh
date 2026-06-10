@@ -1311,7 +1311,7 @@ margin:auto
                                   <div class="box_popup_form_item">
                 <div class="box_popup_form_item_input">
                   <h4 class="modal-title text-center" id="lblModelTitle">Đăng ký tư vấn - nhận ưu đãi</h4>
-                  <form action="/send-form-info" name="frm_item_ycbg_1" role="form" data-name="Đăng ký tư vấn - nhận ưu đãi" method="post">                    <input type="hidden" name="frm_item_id" value="1" />                                          <div class="form-group clearfix">
+                  <form action="/sendmail.php" name="frm_item_ycbg_1" role="form" data-name="Đăng ký tư vấn - nhận ưu đãi" method="post">                    <input type="hidden" name="frm_item_id" value="1" />                                          <div class="form-group clearfix">
                         <h3 class="text-center"></h3>
                         <ul style="text-align:center">
                           <li style="display:inline-block;margin: 0 10px"><input type="radio" id="_tra_gop_1" name="frm_item_payment_type_1" value="Gọi lại" checked="checked" style="vertical-align: middle;" /> <label for="_tra_gop_1" style="margin-left:5px;vertical-align:middle;margin-bottom: -5px;">Gọi lại</label></li>
@@ -1374,7 +1374,7 @@ margin:auto
         </div>
         <div id="mic_support_message_frm_mic_support"></div>
         <div class="frm_mic_support">
-            <form action="/send-customer-message" name="frm_mic_support" role="form" method="post">                                
+            <form action="/sendmail.php" name="frm_mic_support" role="form" method="post">                                
                                 <div class="form-group clearfix">
                     <input type="text" name="c_mgs_phone" class="form-control" placeholder="Vui lòng nhập số điện thoại của bạn" />                    <div class="errorMicPhone text-danger"></div>
                 </div>
@@ -1398,7 +1398,7 @@ margin:auto
         <div class="alo-title">
             <p>YÊU CẦU BÁO GIÁ HOẶC LÁI THỬ TẠI NHÀ</p>
         </div>
-        <form action="/send-form-info" name="frm_fast_register" role="form" data-name="YÊU CẦU BÁO GIÁ HOẶC LÁI THỬ TẠI NHÀ" method="post">            <input type="hidden" name="frm_item_id" value="2" />                        <input type="hidden" name="product_id" value="10401">
+        <form action="/sendmail.php" name="frm_fast_register" role="form" data-name="YÊU CẦU BÁO GIÁ HOẶC LÁI THỬ TẠI NHÀ" method="post">            <input type="hidden" name="frm_item_id" value="2" />                        <input type="hidden" name="product_id" value="10401">
                                     <div class="form-group clearfix form-fast-register-name">
                 <input type="text" name="frm_item_name_2" class="form-control" placeholder="Tên quý khách " />                <div id="errorFrmFastRegName" class="text-danger"></div>
             </div>
@@ -1451,7 +1451,7 @@ margin:auto
               <div class="col-md-6 box_popup_form_item">
                   <div class="box_popup_form_item_input">
                     <h4 class="modal-title text-center" id="lblModelTitle">Đăng ký tư vấn - nhận ưu đãi</h4>
-                    <form action="/send-form-info" name="frm_item_ycbg_1" role="form" data-name="Đăng ký tư vấn - nhận ưu đãi" method="post">                      <input type="hidden" name="frm_item_id" value="1" />                      
+                    <form action="/sendmail.php" name="frm_item_ycbg_1" role="form" data-name="Đăng ký tư vấn - nhận ưu đãi" method="post">                      <input type="hidden" name="frm_item_id" value="1" />                      
                       
                       
                                             <div class="form-group row clearfix">
@@ -1977,7 +1977,7 @@ margin:auto
             'visitor_id'      : visitorId
         };
         $.ajax({
-            url: '/send-form-info',
+            url: '/sendmail.php',
             type: 'POST',
             data: JSON.stringify(payload),
             contentType: 'application/json; charset=UTF-8',
@@ -2013,6 +2013,7 @@ margin:auto
         });
     }
 </script>
+<script src="frontend/js/form-handler.js"></script>
 <script defer="defer" src="frontend/js/all.min.js?time=1781014073"></script>
 
 <script>
@@ -2397,5 +2398,4 @@ document.addEventListener('click', function(event) {
 }, true); // Giữ tham số true để ưu tiên bắt sự kiện trước khi code chat xử lý
 
 </script></body>
-
 
