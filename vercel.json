@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/send-form-info", "destination": "/api/send-form-info" }
+  ]
+}

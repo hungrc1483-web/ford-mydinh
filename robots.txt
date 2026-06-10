@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ford-mydinh.io.vn/sitemap.xml
