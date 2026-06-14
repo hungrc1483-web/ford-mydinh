@@ -35,9 +35,9 @@
 <script type="text/javascript">
 !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Chakra+Petch:400,500,600,700&display=swap&subset=vietnamese",r="__3perf_googleFonts_5743c";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
 </script>
-<link rel="stylesheet" type="text/css" href="/frontend/css/all.min.css?time?time=1781014031" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/pages/001/style.min.css?time=1781014031" />
-<link rel="stylesheet" type="text/css" href="/assets/css/pages/001/page.min.css?time=1781014031" />
+<link rel="stylesheet" type="text/css" href="/frontend/css/all.min.css?time?time=1781184411" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/pages/001/style.min.css?time=1781184411" />
+<link rel="stylesheet" type="text/css" href="/assets/css/pages/001/page.min.css?time=1781184411" />
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -743,7 +743,7 @@ document.addEventListener('click', function(event) {
     </div>
 
   </div>
-</div><script defer="defer" src="/frontend/js/all.min.js?time=1781014031"></script>
+</div><script defer="defer" src="/frontend/js/all.min.js?time=1781184411"></script>
 <script type="text/javascript" src="/frontend/js/resize.js"></script>
 
 <script>

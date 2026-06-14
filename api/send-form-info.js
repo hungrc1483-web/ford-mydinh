@@ -54,11 +54,17 @@ module.exports = async (req, res) => {
         formType = 'Đăng ký tư vấn qua Chat Zalo (Bong bóng chat)';
         phone = data.frm_item_phone_3 || 'Không có';
         carModel = data.frm_item_class_3 || 'Không chọn';
+    } else if (data.c_mgs_phone) {
+        formType = 'Yêu cầu tư vấn qua điện thoại (Gọi lại)';
+        phone = data.c_mgs_phone;
+        name = data.c_mgs_name || 'Khách hàng ẩn danh';
+        carModel = data.c_mgs_class || 'Không chọn';
+        extraInfo = data.c_mgs_comment ? `Nội dung: ${data.c_mgs_comment}` : '';
     }
 
-    const emailSubject = `[Web Ford Bắc Ninh] Khách hàng mới: ${name} (${phone})`;
+    const emailSubject = `[Web Ford Mỹ Đình] Khách hàng mới: ${name} (${phone})`;
     const emailText = `
-Bạn có một yêu cầu mới từ website Ford Bắc Ninh:
+Bạn có một yêu cầu mới từ website Ford Mỹ Đình:
 ---------------------------------------------
 Loại yêu cầu: ${formType}
 Họ và tên: ${name}
@@ -69,7 +75,7 @@ Email này được gửi tự động từ Vercel Serverless Function.
     `;
 
     const emailHtml = `
-        <h3>Bạn có một yêu cầu mới từ website Ford Bắc Ninh:</h3>
+        <h3>Bạn có một yêu cầu mới từ website Ford Mỹ Đình:</h3>
         <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 600px;">
             <tr style="background-color: #f2f2f2;">
                 <th align="left" style="width: 30%;">Trường thông tin</th>

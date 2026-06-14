@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Ford Bắc Ninh: Liên hệ ngay để nhận tư vấn và lái thử miễn phí! Giá xe kèm Ưu đãi mới hấp dẫn, bảo hành chính hãng và dịch vụ chuyên nghiệp. Mua xe trả góp" />
-<meta name="keywords" content="Ford Bắc Ninh" />
-<meta property="og:url" content="https://fordbacninh.webxe.vn/" />
+<meta name="description" content="Ford Nam Định: Liên hệ ngay để nhận tư vấn và lái thử miễn phí! Giá xe kèm Ưu đãi mới hấp dẫn, bảo hành chính hãng và dịch vụ chuyên nghiệp. Mua xe trả góp" />
+<meta name="keywords" content="Ford Nam Định" />
+<meta property="og:url" content="https://fordnamdinh.webxe.vn/" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Ford Bắc Ninh: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" />
-<meta property="og:description" content="Ford Bắc Ninh: Liên hệ ngay để nhận tư vấn và lái thử miễn phí! Giá xe kèm Ưu đãi mới hấp dẫn, bảo hành chính hãng và dịch vụ chuyên nghiệp. Mua xe trả góp" />
-<meta property="og:image" content="https://fordbacninh.webxe.vn/files/default/944/tai-xuong_WP8ShikB.png" />
-<title>Ford Bắc Ninh: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe</title>
-<link rel="shortcut icon" href="/files/default/944/fordmotorcompanylogoopcerbf0_uPbUlBuk.png" type="image/x-icon" />
+<meta property="og:title" content="Ford Nam Định: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" />
+<meta property="og:description" content="Ford Nam Định: Liên hệ ngay để nhận tư vấn và lái thử miễn phí! Giá xe kèm Ưu đãi mới hấp dẫn, bảo hành chính hãng và dịch vụ chuyên nghiệp. Mua xe trả góp" />
+<meta property="og:image" content="https://fordnamdinh.webxe.vn/files/default/976/tai-xuong_WP8ShikB.png" />
+<title>Ford Nam Định: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe</title>
+<link rel="shortcut icon" href="/files/default/976/fordmotorcompanylogoopcerbf0_uPbUlBuk.png" type="image/x-icon" />
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" as="fetch" crossorigin="anonymous">
@@ -35,16 +35,16 @@
 <script type="text/javascript">
 !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Chakra+Petch:400,500,600,700&display=swap&subset=vietnamese",r="__3perf_googleFonts_5743c";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
 </script>
-<link rel="stylesheet" type="text/css" href="/frontend/css/all.min.css?time?time=1781014025" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/pages/944/style.min.css?time=1781014025" />
-<link rel="stylesheet" type="text/css" href="/assets/css/pages/944/page.min.css?time=1781014025" />
+<link rel="stylesheet" type="text/css" href="/frontend/css/all.min.css?time?time=1781184405" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/pages/976/style.min.css?time=1781184405" />
+<link rel="stylesheet" type="text/css" href="/assets/css/pages/976/page.min.css?time=1781184405" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Ford Bắc Ninh",
-  "alternateName": "Ford Bắc Ninh",
-  "url": "https://fordbacninh.webxe.vn"
+  "name": "Ford Nam Định",
+  "alternateName": "Ford Nam Định",
+  "url": "https://fordnamdinh.webxe.vn"
 }
 </script>    <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -192,7 +192,7 @@ document.addEventListener('click', function(event) {
     }
 }, true);
 </script><script type="text/javascript" src="/frontend/js/jquery.min.js"></script>
-<script>window._wsid = 1323;</script>
+<script>window._wsid = 1355;</script>
 </head>
 <body>
 <div id="page">
@@ -202,11 +202,11 @@ document.addEventListener('click', function(event) {
                 <div class="container">
                     <div class="row row-flex">
                         <div class="col-md-6 col-sm-5">
-                            <div class="company_name txt_web_color text-uppercase">Ford Bắc Ninh</div>
+                            <div class="company_name txt_web_color text-uppercase">Ford Nam Định</div>
                         </div>
                         <div class="col-md-6 col-sm-7">
                             <ul id="header_top_info">
-                                <li><i class="fa fa-phone-square txt_web_color" aria-hidden="true"></i><span>Hotline: </span><strong><a href="tel:0366669793">0366669793</a></strong></li> |
+                                <li><i class="fa fa-phone-square txt_web_color" aria-hidden="true"></i><span>Hotline: </span><strong><a href="tel:0968846234">0968846234</a></strong></li> |
                                 
                                 <li class="header_top_zalo">
                                     <img src="/assets/images/icons8-zalo-48.png" alt="Zalo">
@@ -224,7 +224,7 @@ document.addEventListener('click', function(event) {
                 <div class="main_menu_2_group_logo_search clearfix">
                     <div class="main_menu_2_logo pull-left">
                         <a href="/">
-                                                                                                <img src="/files/default/944/1_gqlLTUwm.png" alt="Logo" >
+                                                                                                <img src="/files/default/976/1_gqlLTUwm.png" alt="Logo" >
                                                                                     </a> 
                     </div>
                     <div class="main_menu_2_group_search pull-left">
@@ -270,7 +270,7 @@ document.addEventListener('click', function(event) {
                 </div>
                                                                                 <div class="header-inner header-hyundai-menu-top logo-left medium-logo-center">
                     <div class="hide-for-medium flex-right">
-                        <span class="logo-text logo-text-desktop">Ford Bắc Ninh</span>
+                        <span class="logo-text logo-text-desktop">Ford Nam Định</span>
                     </div>
                 </div>
                             </div>
@@ -280,10 +280,10 @@ document.addEventListener('click', function(event) {
     <div class="container">
                 <div class="header-inner header-hyundai flex-row logo-left medium-logo-center">
             <div class="flex-col icon-logo-header d-lg-none">
-                <a href="/"><img src="/files/default/944/fordmotorcompanylogoopcerbf0_uPbUlBuk.png" alt="Ford Bắc Ninh: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" /></a>
+                <a href="/"><img src="/files/default/976/fordmotorcompanylogoopcerbf0_uPbUlBuk.png" alt="Ford Nam Định: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" /></a>
             </div>
             <div class="flex-col hide-for-medium flex-right">
-                <span class="logo-text">Ford Bắc Ninh</span>
+                <span class="logo-text">Ford Nam Định</span>
             </div>
             <a href="javascript:void(0);" id="mobile-toggle" class="dongvao flex-col d-lg-none">
                 <span class="fa fa-bars"></span>
@@ -291,9 +291,9 @@ document.addEventListener('click', function(event) {
         </div>
             </div>
 </div>
-                                                                                                                        <div id="banner_static_97079" class="md_carousel_owl">
+                                                                                                                        <div id="banner_static_100119" class="md_carousel_owl">
         <div class="md-carousel-owl owl-carousel owl-theme">
-                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/944/territorydesignbillboard1jpgrenditionsoriginalmnoohuro_rMmEtrZq.jpg);">
+                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/976/territorydesignbillboard1jpgrenditionsoriginalmnoohuro_rMmEtrZq.jpg);">
                 <div class="container">
                     <div class="row row-flex justify-content-center justify-content-md-start">
                         <div class="col-10 col-md-6 static">
@@ -306,7 +306,7 @@ document.addEventListener('click', function(event) {
                     </div>
                 </div>
             </div>
-                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/944/fordbneverestbbdmodmj_uUAUndX5.jpg);">
+                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/976/fordbneverestbbdmodmj_uUAUndX5.jpg);">
                 <div class="container">
                     <div class="row row-flex justify-content-center justify-content-md-start">
                         <div class="col-10 col-md-6 static">
@@ -319,7 +319,7 @@ document.addEventListener('click', function(event) {
                     </div>
                 </div>
             </div>
-                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/944/fordbnraptorbpvlvacy_w1xju0Vx.jpg);">
+                                        <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/files/ads/976/fordbnraptorbpvlvacy_w1xju0Vx.jpg);">
                 <div class="container">
                     <div class="row row-flex justify-content-center justify-content-md-start">
                         <div class="col-10 col-md-6 static">
@@ -386,25 +386,25 @@ document.addEventListener('click', function(event) {
 		</div>
 		</div>
 </div>
-                            <div id="banner_static_97040" class="md_banner_2">
+                            <div id="banner_static_100080" class="md_banner_2">
     </div>                            
     <div class="box_product_hot_index">
-    		<div class="title_bar_center bar_web_bgr text-uppercase"><h2>FORD Auto Bắc Ninh</h2></div>
+    		<div class="title_bar_center bar_web_bgr text-uppercase"><h2>FORD Nam Định</h2></div>
         <div class="box_list_product">
         <div class="row row-flex">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-ranger-bac-ninh"><div class="box_product_img"><img src="/files/product/944/22-04-2021/ranger_I2zyF6QP.jpg" alt="Ford Ranger Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/ford-ranger-bac-ninh">Ford Ranger</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-ranger-nam-dinh"><div class="box_product_img"><img src="/files/product/976/22-04-2021/ranger_I2zyF6QP.jpg" alt="Ford Ranger Nam Định"></div></a><div class="box_product_name"><a href="/ford-ranger-nam-dinh">Ford Ranger</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">707.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-ranger-bac-ninh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-everest-bac-ninh"><div class="box_product_img"><img src="/files/product/944/13-04-2023/everr_J5u8ztoa.jpg" alt="Ford Everest Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/ford-everest-bac-ninh">Ford Everest</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-ranger-nam-dinh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-everest-nam-dinh"><div class="box_product_img"><img src="/files/product/976/13-04-2023/everr_J5u8ztoa.jpg" alt="Ford Everest Nam Định"></div></a><div class="box_product_name"><a href="/ford-everest-nam-dinh">Ford Everest</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">1.099.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-everest-bac-ninh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-territory-bac-ninh"><div class="box_product_img"><img src="/files/product/944/22-04-2021/fordteritory2025_s5HrlzuW.jpg" alt="Ford Territory Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/ford-territory-bac-ninh">Ford Territory</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-everest-nam-dinh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-territory-nam-dinh"><div class="box_product_img"><img src="/files/product/976/22-04-2021/fordteritory2025_s5HrlzuW.jpg" alt="Ford Territory Nam Định"></div></a><div class="box_product_name"><a href="/ford-territory-nam-dinh">Ford Territory</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">739.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-territory-bac-ninh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-transit-bac-ninh"><div class="box_product_img"><img src="/files/product/944/24-03-2018/ford-transsit-2024-webxe_TRwGZqgS.jpg" alt="Ford Transit Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/ford-transit-bac-ninh">Ford Transit</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-territory-nam-dinh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ford-transit-nam-dinh"><div class="box_product_img"><img src="/files/product/976/24-03-2018/ford-transsit-2024-webxe_TRwGZqgS.jpg" alt="Ford Transit Nam Định"></div></a><div class="box_product_name"><a href="/ford-transit-nam-dinh">Ford Transit</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">907.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-transit-bac-ninh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ranger-raptor-bac-ninh"><div class="box_product_img"><img src="/files/product/944/13-10-2021/rapter_WPqO12UD.jpg" alt="Ranger Raptor Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/ranger-raptor-bac-ninh">Ranger Raptor</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ford-transit-nam-dinh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/ranger-raptor-nam-dinh"><div class="box_product_img"><img src="/files/product/976/13-10-2021/rapter_WPqO12UD.jpg" alt="Ranger Raptor Nam Định"></div></a><div class="box_product_name"><a href="/ranger-raptor-nam-dinh">Ranger Raptor</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">1.299.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ranger-raptor-bac-ninh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/khuyenmai#"><div class="box_product_img"><img src="/files/product/944/24-03-2018/exuqr6s2md_p1Q8oC1e.jpg" alt="Xe Ford Auto Bắc Ninh"></div></a><div class="box_product_name"><a href="/khuyenmai#">Xe Ford</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/ranger-raptor-nam-dinh"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-ss-12 col-product"><div class="box_product"><a href="/khuyenmai#"><div class="box_product_img"><img src="/files/product/976/24-03-2018/exuqr6s2md_p1Q8oC1e.jpg" alt="Xe Ford Nam Định"></div></a><div class="box_product_name"><a href="/khuyenmai#">Xe Ford</a></div><div class="box_product_price_cart clearfix"><div class="box_product_price">
 			                        <div class="product_price_new product_price"><span class="text_price">707.000.000</span><span class="unit_price">VNĐ</span></div>
-			                    </div></div><div class="btn_view_product_detail text-center"><a href="/khuyenmai#"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0366669793"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                </div>
+			                    </div></div><div class="btn_view_product_detail text-center"><a href="/khuyenmai#"  class="btn btn-blue bar_web_bgr"><i class="fa fa-angle-double-right"></i> XEM</a></div><div class="box_product_company_info"><ul class="text-center"><li class="product_company_hotline"><span>Hotline: </span><strong><a href="tel:0968846234"><i class="fa fa-angle-double-right"></i> Gọi ngay</a></strong></li></ul></div></div></div>                </div>
     </div>
 </div>                            <div class="md_home_article">
 <div class="row row-flex">
@@ -481,7 +481,7 @@ document.addEventListener('click', function(event) {
       </div>
 
       <div class="promo-highlight">
-        ⭐ <b>Chương trình khuyến mãi TỐT NHẤT từ trước tại Auto Bắc Ninh</b>
+        ⭐ <b>Chương trình khuyến mãi TỐT NHẤT từ trước tại Nam Định</b>
       </div>
 
       <div class="countdown">
@@ -499,9 +499,9 @@ document.addEventListener('click', function(event) {
        <a rel="nofollow" href="javascript:;" data-toggle="modal" data-target="#modalItemYcbg" class="btn-open-popup-ycbg">📞 Nhận báo giá & ưu đãi</a>
       </div>
 <b> </b>
-<li> Em Việt- <span class="shortcode-config shortcode-config-name">Ford Bắc Ninh<span>  </li> 
-<li>Số điện thoại: <span class="shortcode-config shortcode-config-hotline">0366669793<span> </li>
-<li>Địa chỉ: <span class="shortcode-config shortcode-config-address">Tổ dân phố Riễu, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam<span>   </li>
+<li> Em Minh- <span class="shortcode-config shortcode-config-name">Ford Nam Định<span>  </li> 
+<li>Số điện thoại: <span class="shortcode-config shortcode-config-hotline">0968846234<span> </li>
+<li>Địa chỉ: <span class="shortcode-config shortcode-config-address">Km6, Đại lộ Thiên Trường, phường Mỹ Lộc, tỉnh Ninh Bình (Thành phố Nam Định cũ)<span>   </li>
     </div>
   `);
 })();
@@ -549,24 +549,24 @@ document.addEventListener('click', function(event) {
           </div>
         </form>    </div>
   </div>		<div class="text-center box-image-article-home">
-		<img src="/files/default/944/z531121063834546a3e02e30153210aae309437fd956bbtyswrgigbrxmwo1vegvu8ahmazvlmu6fsg6kzags_JHb9bdpV.jpg" class="image_article_home" />	</div>
+		<img src="/files/default/976/b3ba5789c0c98e2a1b432b720a8c1f90ff97wpuzoeamwo0evdx4debtn5ya8rbowcbq5fgr_KXpZtkq9.jpg" class="image_article_home" />	</div>
 			</div>
 </div>
 </div>
                             <div class="module_news_introduct">
-	        <div class="title_bar_center bar_web_bgr text-uppercase"><h2>Bài viết Ford Auto Bắc Ninh</h2></div>
+	        <div class="title_bar_center bar_web_bgr text-uppercase"><h2>Bài viết Ford Nam Định</h2></div>
 		<div class="box_module_news_introduct row clearfix row-flex">
 							                                                                                                                                                                                                                                                                                				<div class="col-md-4 col-sm-6 col-lg-5th col-news-introduct">
 					<div class="news_introduct_item">
 						<div class="news_introduct_item_image">
                             <a href="/baiviet4">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/1_509Sr3Mp.jpg" alt="Giá khuyến mãi kèm lăn bánh các dòng Ford">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/1_509Sr3Mp.jpg" alt="Giá khuyến mãi kèm lăn bánh các dòng Ford">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/baiviet4">Giá khuyến mãi kèm lăn bánh các dòng Ford</a></div>
-                        <div class="news_introduct_description">Ford Bắc Ninh : Tư vấn giá lăn bánh tại Auto Bắc Ninh</div>
+                        <div class="news_introduct_description">Ford Nam Định : Tư vấn giá lăn bánh tại Nam Định</div>
 						<div class="news_introduct_view text-center"><a href="/baiviet4" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -575,12 +575,12 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/baiviet3">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/9_WmRaDE5F.jpg" alt="Tính trả góp hằng tháng khi mua xe Ford">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/9_WmRaDE5F.jpg" alt="Tính trả góp hằng tháng khi mua xe Ford">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/baiviet3">Tính trả góp hằng tháng khi mua xe Ford</a></div>
-                        <div class="news_introduct_description">Việt xin tư vấn và gửi Bảng tính chi tiết trả góp hằng tháng</div>
+                        <div class="news_introduct_description">Minh xin tư vấn và gửi Bảng tính chi tiết trả góp hằng tháng</div>
 						<div class="news_introduct_view text-center"><a href="/baiviet3" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -589,12 +589,12 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/baiviet5">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/2_I1XPLWDm.jpg" alt="Mua ô tô đứng tên vợ hay chồng?">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/2_I1XPLWDm.jpg" alt="Mua ô tô đứng tên vợ hay chồng?">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/baiviet5">Mua ô tô đứng tên vợ hay chồng?</a></div>
-                        <div class="news_introduct_description">Việt tư vấn xem ai nên đứng tên để cả nhà tiện lợi</div>
+                        <div class="news_introduct_description">Minh tư vấn xem ai nên đứng tên để cả nhà tiện lợi</div>
 						<div class="news_introduct_view text-center"><a href="/baiviet5" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -603,7 +603,7 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/sale">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/11_pzKf7Cn7.jpg" alt="Bảng tính tham khảo">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/11_pzKf7Cn7.jpg" alt="Bảng tính tham khảo">
                                                                     </div>
                             </a>
                         </div>
@@ -617,12 +617,12 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/baiviet7">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/14_16SRuzQY.jpg" alt="Lưu ý khi Mua xe Ford trả góp">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/14_16SRuzQY.jpg" alt="Lưu ý khi Mua xe Ford trả góp">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/baiviet7">Lưu ý khi Mua xe Ford trả góp</a></div>
-                        <div class="news_introduct_description">Mua xe  trả góp tại Ford Bắc Ninh. Lãi suất – Hồ sơ cần có</div>
+                        <div class="news_introduct_description">Mua xe  trả góp tại Ford Nam Định. Lãi suất – Hồ sơ cần có</div>
 						<div class="news_introduct_view text-center"><a href="/baiviet7" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -631,7 +631,7 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/baiviet8">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/24-03-2018/10_bDJysRZd.jpg" alt="Chi phí nuôi xe Ford mỗi tháng? Có tốn?">
+                                                                        <img class="media-object" src="/files/news/976/24-03-2018/10_bDJysRZd.jpg" alt="Chi phí nuôi xe Ford mỗi tháng? Có tốn?">
                                                                     </div>
                             </a>
                         </div>
@@ -645,12 +645,12 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/baiviet2">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/04-12-2023/morningsx6tjit0_9Vt3YqHG.jpg" alt="Đừng vội mua xe — Hãy lái thử Ford trước!">
+                                                                        <img class="media-object" src="/files/news/976/04-12-2023/morningsx6tjit0_9Vt3YqHG.jpg" alt="Đừng vội mua xe — Hãy lái thử Ford trước!">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/baiviet2">Đừng vội mua xe — Hãy lái thử Ford trước!</a></div>
-                        <div class="news_introduct_description">Việt luôn sẵn xe mời anh chị lái thử, hoàn toàn miễn phí </div>
+                        <div class="news_introduct_description">Minh luôn sẵn xe mời anh chị lái thử, hoàn toàn miễn phí </div>
 						<div class="news_introduct_view text-center"><a href="/baiviet2" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -659,12 +659,12 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/gia-xe">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/24-03-2018/13_8wQVQSis.jpg" alt="Báo giá xe Ford Giảm sâu+ quà">
+                                                                        <img class="media-object" src="/files/news/976/24-03-2018/13_8wQVQSis.jpg" alt="Báo giá xe Ford Giảm sâu+ quà">
                                                                     </div>
                             </a>
                         </div>
 						<div class="news_introduct_name"><a href="/gia-xe">Báo giá xe Ford Giảm sâu+ quà</a></div>
-                        <div class="news_introduct_description">Bạn quan tâm giá xe ô tô Ford tại Auto Bắc Ninh? Giá xe khuyến mãi, giá niêm yết, giá xe lăn bánh, mức trả góp...</div>
+                        <div class="news_introduct_description">Bạn quan tâm giá xe ô tô Ford tại Nam Định? Giá xe khuyến mãi, giá niêm yết, giá xe lăn bánh, mức trả góp...</div>
 						<div class="news_introduct_view text-center"><a href="/gia-xe" class="btn btn-sm btn-theme-colored">Xem tiếp</a></div>
 					</div>
 				</div>
@@ -673,7 +673,7 @@ document.addEventListener('click', function(event) {
 						<div class="news_introduct_item_image">
                             <a href="/cap-nhat">
                                 <div class="box_introduct_item_image">
-                                                                        <img class="media-object" src="/files/news/944/24-03-2018/webxegiaxehyundaiioniqjxegysbd_HQnAuMnm.jpg" alt="10 điều nên biết trước khi mua ô tô">
+                                                                        <img class="media-object" src="/files/news/976/24-03-2018/webxegiaxehyundaiioniqjxegysbd_HQnAuMnm.jpg" alt="10 điều nên biết trước khi mua ô tô">
                                                                     </div>
                             </a>
                         </div>
@@ -722,12 +722,12 @@ document.addEventListener('click', function(event) {
                             <div class="elementor-element elementor-element-261bdcc elementor-align-center elementor-widget elementor-widget-button" data-id="261bdcc" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                <a href="tel:0366669793" class="elementor-button-link elementor-button elementor-size-md" role="button">
+                                <a href="tel:0968846234" class="elementor-button-link elementor-button elementor-size-md" role="button">
                                     <span class="elementor-button-content-wrapper">
                                     <span class="elementor-button-icon elementor-align-icon-left">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                     </span>
-                                    <span class="elementor-button-text">0366669793</span>
+                                    <span class="elementor-button-text">0968846234</span>
                                     </span>
                                 </a>
                                 </div>
@@ -772,7 +772,7 @@ document.addEventListener('click', function(event) {
                         <div class="box_post">
         <div class="container">                        <div class="title_bar bar_web_bgr text-uppercase"><h2>VÌ SAO CHỌN CHÚNG TÔI</h2></div>
                         <div class="post_static clearfix">
-                                                <div class="post_static_content"><h1 style="text-align: center;"><span style="color:#FF0000;"><strong>Ford&nbsp;Auto Bắc Ninh</strong></span></h1>
+                                                <div class="post_static_content"><h1 style="text-align: center;"><span style="color:#FF0000;"><strong>Ford&nbsp;Nam Định</strong></span></h1>
 
 <div class="row align-equal align-center" id="row-1578320335">
 <div class="col-md-3 col-sm-6 col-xs-6" id="col-2131487883">
@@ -801,7 +801,7 @@ document.addEventListener('click', function(event) {
 </div>
 </div>
 
-<h3 style="text-align: center;">Ford Auto Bắc Ninh lu&ocirc;n hỗ trợ kh&aacute;ch h&agrave;ng mức gi&aacute; tối ưu</h3>
+<h3 style="text-align: center;">Ford Nam Định lu&ocirc;n hỗ trợ kh&aacute;ch h&agrave;ng mức gi&aacute; tối ưu</h3>
 
 <div class="text-center">
 <div class="is-divider divider clearfix" style="background-color:rgb(213, 0, 0);height: 4px;
@@ -842,7 +842,7 @@ document.addEventListener('click', function(event) {
 </div>
 </div>
 
-<h3 style="text-align: center;">Chương tr&igrave;nh trả g&oacute;p linh hoạt với mức l&atilde;i suất thấp nhất tại Ford Auto Bắc Ninh</h3>
+<h3 style="text-align: center;">Chương tr&igrave;nh trả g&oacute;p linh hoạt với mức l&atilde;i suất thấp nhất tại Ford Nam Định</h3>
 </div>
 <style type="text/css">#col-693879611>.col-inner {
                 padding: 30px 10px 29px 10px;
@@ -877,7 +877,7 @@ document.addEventListener('click', function(event) {
 </div>
 </div>
 
-<h3 style="text-align: center;">Chương tr&igrave;nh l&aacute;i thử xe tại nh&agrave; của Ford Auto Bắc Ninh&nbsp;gi&uacute;p qu&yacute; kh&aacute;ch cảm nhận gi&aacute; trị thật</h3>
+<h3 style="text-align: center;">Chương tr&igrave;nh l&aacute;i thử xe tại nh&agrave; của Ford Nam Định&nbsp;gi&uacute;p qu&yacute; kh&aacute;ch cảm nhận gi&aacute; trị thật</h3>
 </div>
 <style type="text/css">#col-608208443>.col-inner {
                 padding: 30px 10px 29px 10px;
@@ -912,7 +912,7 @@ document.addEventListener('click', function(event) {
 </div>
 </div>
 
-<h3 style="text-align: center;">Ford Auto Bắc Ninh&nbsp;hỗ trợ c&aacute;c thủ tục mua xe, đăng k&yacute;, hồ sơ trả g&oacute;p một c&aacute;ch tiện lợi nhất&nbsp;</h3>
+<h3 style="text-align: center;">Ford Nam Định&nbsp;hỗ trợ c&aacute;c thủ tục mua xe, đăng k&yacute;, hồ sơ trả g&oacute;p một c&aacute;ch tiện lợi nhất&nbsp;</h3>
 
 <div class="text-center">
 <div class="is-divider divider clearfix" style="background-color:rgb(213, 0, 0);height: 4px;
@@ -981,38 +981,38 @@ margin:auto
     </div>
                                             <div class="_footer_total">
                                     <div id="logo-hyundai-mobile-footer" class="text-center hidden-md hidden-lg">
-                    <a href="/"><img src="/files/default/944/1_gqlLTUwm.png" alt="Logo"></a>
+                    <a href="/"><img src="/files/default/976/1_gqlLTUwm.png" alt="Logo"></a>
             </div>
 <div class="box_footer_total">
 	<div class="container">
 	    <div class="row row-flex">
 	        		        		        	<div class="col-md-4 col-sm-6 col-footer-total-flex col-footer-info">
     <div class="info_footer_middle">
-        <div class="title_footer text-uppercase"><h4>Ford Bắc Ninh</h4></div>
+        <div class="title_footer text-uppercase"><h4>Ford Nam Định</h4></div>
         <div class="content_footer_middle">
                         <div class="content_company_info">
                 <ul>
                                         <li class="clearfix">
                         <i class="icon-dia-chi"></i>
-                        <span><a href="https://www.google.com/maps/search/?api=1&query=Tổ dân phố Riễu, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam" target="_blank">Tổ dân phố Riễu, phường Bắc Giang, tỉnh Bắc Ninh, Việt Nam</a></span>
+                        <span><a href="https://www.google.com/maps/search/?api=1&query=Km6, Đại lộ Thiên Trường, phường Mỹ Lộc, tỉnh Ninh Bình (Thành phố Nam Định cũ)" target="_blank">Km6, Đại lộ Thiên Trường, phường Mỹ Lộc, tỉnh Ninh Bình (Thành phố Nam Định cũ)</a></span>
                     </li>
                                                             <li class="clearfix">
                         <i class="icon-sodienthoai"></i>
-                        <span><a href="tel:0366669793">0366669793</a></span>
+                        <span><a href="tel:0968846234">0968846234</a></span>
                     </li>
                                                             <li class="clearfix">
                         <i class="icon-mail"></i>
-                        <span><a href="mailto:viet190593@gmail.com">viet190593@gmail.com</a></span>
+                        <span><a href="mailto:Ford.namdinh3s@gmail.com">Ford.namdinh3s@gmail.com</a></span>
                     </li>
                                                                                                     <li class="clearfix">
                         <i class="fa fa-bullseye" aria-hidden="true"></i>
-                        <span>Auto Bắc Ninh</span>
+                        <span>Nam Định</span>
                     </li>
                                     </ul>
             </div>
-                                    <div class="footer_content"><p><span style="color:#FFFFFF;">Công Ty Tnhh Mtv Kinh Doanh Và Dịch Vụ Ô Tô Long Biên – Chi Nhánh Bắc Ninh- M&atilde; số thuế: 107596635</span></p>
+                                    <div class="footer_content"><p><span style="color:#FFFFFF;">Công Ty Cổ Phần Kinh Doanh Ô Tô Nam Định- M&atilde; số thuế: 601240479</span></p>
 
-<p><span style="color:#FFF0F5;">Website th&ocirc;ng tin & tư vấn xe Ford tại <span class="shortcode-config shortcode-config-slogan">Auto Bắc Ninh<span>. Người phụ tr&aacute;ch: <span class="shortcode-config shortcode-config-business_man">Việt<span>, Sđt:&nbsp;<span class="shortcode-config shortcode-config-hotline">0366669793<span>.</span></p>
+<p><span style="color:#FFF0F5;">Website th&ocirc;ng tin & tư vấn xe Ford tại <span class="shortcode-config shortcode-config-slogan">Nam Định<span>. Người phụ tr&aacute;ch: <span class="shortcode-config shortcode-config-business_man">Minh<span>, Sđt:&nbsp;<span class="shortcode-config shortcode-config-hotline">0968846234<span>.</span></p>
 
 <p><span style="color:#FFF0F5;">Website n&agrave;y kh&ocirc;ng phải l&agrave; cổng th&ocirc;ng tin ch&iacute;nh thức của thương hiệu&nbsp;Ford, kh&ocirc;ng độc quyền v&agrave; kh&ocirc;ng đại diện cho h&atilde;ng Ford hay Ford Việt Nam</span></p><p><span style="font-size:12px;"><a href="/chinh-sach-bao-mat"><span style="color:#FFFFFF;">Ch&iacute;nh s&aacute;ch Bảo mật</span></a><span style="color:#FFFFFF;">&nbsp;|&nbsp;</span><a href="/dieu-khoan-dich-vu"><span style="color:#FFFFFF;">Điều khoản Dịch vụ</span></a></span></p>
 
@@ -1022,12 +1022,13 @@ margin:auto
     </div>
 </div>		        		        		        		        		        		        	            	            	            	            	            	        		        		        		        		        		        <div class="col-md-4 col-sm-6 col-footer-total-flex col-xs-6 col-ss-12 col-sss-12 col-footer-facebook">
 		            
+		            		                <div id="copyright">Copyright © 2018. All Rights Reserved</div>
 		            		        </div>
 		        		        		        	            	            	            	            	            	        		        		        		        		        		        		        	<div class="col-md-4 col-sm-6 col-xs-6 col-ss-12 col-sss-12 col-footer-total-flex col-footer-social">
     <nav class="social_icon">
         <ul>
             <li><a href="" target="_blank"><img src="/assets/images/i_google.png" alt="Google"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=61552800806090&mibextid=ZbWKwL" target="_blank"><img src="/assets/images/i_facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.facebook.com/vnwebxe" target="_blank"><img src="/assets/images/i_facebook.png" alt="Facebook"></a></li>
             <li><a href="" target="_blank"><img src="/assets/images/i_twitter.png" alt="Twitter"></a></li>
             <li><a href="" target="_blank"><img src="/assets/images/i_youtube.png" alt="Youtube"></a></li>
         </ul>
@@ -1040,7 +1041,7 @@ margin:auto
 </div>
     <div id="mobile-nav">
     <div id="nav-menu">
-        <div id="cssmenu"> <a id="moblogo" href="/"> <img src="files/default/944/1_gqlLTUwm.png" alt="Ford Bắc Ninh: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" class="initial loading"> </a>
+        <div id="cssmenu"> <a id="moblogo" href="/"> <img src="files/default/976/1_gqlLTUwm.png" alt="Ford Nam Định: Giá xe lăn bánh kèm ưu đãi tháng 6/2026. Lái thử xe" class="initial loading"> </a>
                         <ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <li class="menu-item current-menu-parent"><a href="/">Trang chủ<span class="arrow"></span></a>
                                     </li>
@@ -1259,14 +1260,14 @@ margin:auto
   </div>
 </div>    <div class="webxe-chat-wrapper">
     <div class="chat-bubble" id="webxeChatBubble" onclick="toggleWebxeChat()">
-        <img alt="Việt" src="/files/default/944/nam6vzgwjpr_rkG5qxEG.jpg" />        <span class="unread-dot">1</span>
+        <img alt="Minh" src="/files/default/976/namrhklijq0_gu2VYgDO.jpg" />        <span class="unread-dot">1</span>
     </div>
     <div class="chat-box" id="webxeChatBox">
         <div class="chat-header">
             <div class="sale-info">
-                <img alt="Việt" src="/files/default/944/nam6vzgwjpr_rkG5qxEG.jpg" />                <div>
-                    <h4>Việt</h4>
-                    <p>Tư vấn bán hàng - Ford Bắc Ninh</p>
+                <img alt="Minh" src="/files/default/976/namrhklijq0_gu2VYgDO.jpg" />                <div>
+                    <h4>Minh</h4>
+                    <p>Tư vấn bán hàng - Ford Nam Định</p>
                 </div>
             </div>
             <button class="minimize-chat" onclick="toggleWebxeChat()">_</button>
@@ -1713,9 +1714,9 @@ margin:auto
             var bMsg = document.createElement('div');
             bMsg.className = 'msg-bot msg-focus-alert';
             if (type === 'car') {
-                bMsg.innerHTML = 'Dạ, anh/chị cho em xin số zalo, em tư vấn xe <strong>Ford ' + identifier + '</strong>, gửi thông tin cụ thể khuyến mãi, lái thử, trả góp... tại Bắc Ninh ah!';
+                bMsg.innerHTML = 'Dạ, anh/chị cho em xin số zalo, em tư vấn xe <strong>Ford ' + identifier + '</strong>, gửi thông tin cụ thể khuyến mãi, lái thử, trả góp... tại Nam Định ah!';
             } else {
-                bMsg.innerHTML = 'Dạ, anh/chị cho em xin số zalo, em tư vấn xe, gửi thông tin cụ thể khuyến mãi, lái thử, trả góp... tại Bắc Ninh ah!';
+                bMsg.innerHTML = 'Dạ, anh/chị cho em xin số zalo, em tư vấn xe, gửi thông tin cụ thể khuyến mãi, lái thử, trả góp... tại Nam Định ah!';
             }
             body.appendChild(bMsg);
             alertCustomer();
@@ -1776,7 +1777,7 @@ margin:auto
         });
     }
 </script>
-<script defer="defer" src="/frontend/js/all.min.js?time=1781014025"></script>
+<script defer="defer" src="/frontend/js/all.min.js?time=1781184405"></script>
 
 <script>
     let visitorId = sessionStorage.getItem('visitor_id');

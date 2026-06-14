@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Cho phep Google danh gia toan bo trang web
+Allow: /ford-everest-platinum-4x2
+Allow: /ford-everest-platinum-4x4
+Allow: /ford-everest-platinum-may-xang
+Allow: /ford-everest-my-dinh
+Allow: /everest-7-cho
+Allow: /ford-ranger-my-dinh
+Allow: /ban-tai-ranger
+Allow: /ford-raptor
+Allow: /ranger-raptor-my-dinh
+Allow: /ford-territory-my-dinh
+Allow: /territory-5-cho
+Allow: /explorer-7-cho
+Allow: /ford-transit-my-dinh
+Allow: /transit-16-cho
+Allow: /gia-xe
+Allow: /sale
+Allow: /dang-ky-lai-thu
+Allow: /san-pham
+Allow: /tin-tuc
+Allow: /gioi-thieu
+Allow: /lien-he
+
+# Khong cho phep bot quet he thong gui form va tim kiem noi bo
+Disallow: /send-form-info
+Disallow: /gui-bao-gia-thanh-cong
+Disallow: /tim-kiem
+Disallow: /messages/
+Disallow: /server.py
+
+# Sitemap
+Sitemap: https://ford-mydinh.io.vn/sitemap.xml
+
+# Crawl delay (neu can)
+# Crawl-delay: 10

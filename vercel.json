@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/send-form-info", "destination": "/api/send-form-info" }
+    { "source": "/send-form-info", "destination": "/api/send-form-info" },
+    { "source": "/send-customer-message", "destination": "/api/send-form-info" }
   ]
 }
