@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Đơn vị hàng đầu trong mảng quảng cáo bán ô tô- Hỗ trợ thiết kế website, fanpage, chạy quảng cáo hiệu quả. hotline . Sale ô tô Hyundai, Toyota, Mazda, Kia, " />
+<meta name="keywords" content="" />
+<meta property="og:url" content="https://webxe.vn/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Webxe.vn. Cho thuê web bán ô tô, Chạy quảng cáo Google mảng xe chuyên nghiệp, Giải pháp bán hàng hiệu quả nhất. " />
+<meta property="og:description" content="Đơn vị hàng đầu trong mảng quảng cáo bán ô tô- Hỗ trợ thiết kế website, fanpage, chạy quảng cáo hiệu quả. hotline . Sale ô tô Hyundai, Toyota, Mazda, Kia, " />
+<meta property="og:image" content="https://webxe.vn/files/default/001/img1471jpg166977672214841669776957_Nw4w3wQm.jpg" />
+<title>Webxe.vn. Cho thuê web bán ô tô, Chạy quảng cáo Google mảng xe chuyên nghiệp, Giải pháp bán hàng hiệu quả nhất. </title>
+<link rel="shortcut icon" href="/files/default/001/iconmanhquanshumacdy_MgQGtxu0.jpg" type="image/x-icon" />
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" as="fetch" crossorigin="anonymous">
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Roboto:400,500,700",r="__3perf_googleFonts_c9230";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" as="fetch" crossorigin="anonymous">
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700",r="__3perf_googleFonts_f414b";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" as="fetch" crossorigin="anonymous">
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700",r="__3perf_googleFonts_70cd6";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i&display=swap&subset=vietnamese" as="fetch" crossorigin="anonymous">
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i&display=swap&subset=vietnamese",r="__3perf_googleFonts_8561f";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,500,600,700&display=swap&subset=vietnamese" as="fetch" crossorigin="anonymous">
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Chakra+Petch:400,500,600,700&display=swap&subset=vietnamese",r="__3perf_googleFonts_5743c";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+<link rel="stylesheet" type="text/css" href="/frontend/css/all.min.css?time?time=1781184411" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/pages/001/style.min.css?time=1781184411" />
+<link rel="stylesheet" type="text/css" href="/assets/css/pages/001/page.min.css?time=1781184411" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ47RX65');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16764967742"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16764967742');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N88V2GRCQ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N88V2GRCQ6');
+</script>
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4904666,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4904666&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16773925531"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16773925531');
+</script>
+<!-- Event snippet for cuộc gọi conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16764967742/HoXDCJH7gO0ZEL62lLo-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16764967742"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16764967742');
+</script>
+<!-- Event snippet for Nhấp vào số điện thoại trên trang web conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16776987715/IxnjCJujv4oaEMOI8r8-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11551846377"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11551846377');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16861671271"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16861671271');
+</script>
+
+<script>
+document.addEventListener('click', function(event) {
+    // 1. Tìm phần tử được click hoặc phần tử cha gần nhất của nó
+    var target = event.target;
+    
+    // 2. Kiểm tra xem nút được click có thuộc tính onclick chứa "sendLeadData" không
+    // và xem nó có nằm bên trong khung chat id "car-chat-popup" hay không
+    if (target && target.getAttribute('onclick') && target.getAttribute('onclick').includes('sendLeadData')) {
+        var chatPopup = target.closest('#car-chat-popup');
+        
+        if (chatPopup) {
+            // Kiểm tra xem form nhập sđt có dữ liệu hay không (tránh click ảo khi chưa nhập gì)
+            var phoneInput = chatPopup.querySelector('.form-sdt');
+            var phoneValue = phoneInput ? phoneInput.value.trim() : '';
+            
+            // Nếu form có nhập dữ liệu (độ dài > 0), tiến hành gửi dữ liệu lên Google
+            if (phoneValue.length > 0) {
+                
+                // Đẩy sự kiện vào dataLayer cho Google Tag Manager (nếu dùng GTM)
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    'event': 'chat_lead_success',
+                    'chat_id': 'car-chat-popup'
+                });
+                
+                // Gửi trực tiếp về GA4 (Mã đo lường: G-N88V2GRCQ6) đề phòng bạn không dùng GTM
+                if (typeof gtag === 'function') {
+                    gtag('event', 'generate_lead_chat', {
+                        'send_to': 'G-N88V2GRCQ6',
+                        'chat_id': 'car-chat-popup'
+                    });
+                }
+                
+                console.log('Đã ghi nhận chuyển đổi chat thành công!');
+            }
+        }
+    }
+}, true);
+</script><script type="text/javascript" src="/frontend/js/jquery.min.js"></script>
+<script>window._wsid = 1;</script>
+</head>
+<body>
+<div id="page">
+    
+            
+    
+            <section id="content" class="clearfix">
+            <div id="box_content_inner">
+                <div class="container">
+                                                                                        <div class="md_home_article">
+<div class="row row-flex">
+	<div class="col-md-6 col-sm-12 col-home-article">
+		<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<style type="text/css">body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+  }
+  .form-wrapper {
+    max-width: 420px;
+    margin: auto;
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  }
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+  }
+  input, select {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 16px;
+    font-size: 15px;
+    transition: 0.2s;
+  }
+  input:focus, select:focus {
+    border-color: #0084ff;
+    box-shadow: 0 0 0 3px rgba(0,132,255,0.15);
+    outline: none;
+  }
+  button {
+    width: 100%;
+    background: linear-gradient(135deg, #0084ff, #00a2ff);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  button:hover {
+    opacity: 0.92;
+    transform: translateY(-2px);
+  }
+</style>
+<div class="lp-intro" style="max-width:600px;margin:auto;margin-bottom:32px;padding:32px;background:linear-gradient(135deg,#eef6ff,#ffffff);border-radius:20px;box-shadow:0 12px 32px rgba(0,0,0,0.08);font-family:Arial,sans-serif;color:#1a1a1a;">
+<h2 style="font-size:26px;font-weight:800;margin-bottom:16px;color:#004b9f;"><span style="font-family:times new roman,times,serif;">SALE &Ocirc; T&Ocirc; &ndash; BẠN MUỐN&nbsp;TĂNG KH&Aacute;CH, GIẢM CHI PH&Iacute;?</span></h2>
+
+<p style="font-size:17px;line-height:1.6;margin-bottom:22px;color:#333;">Bạn đ&atilde; chi tiền chạy quảng c&aacute;o nhưng kết quả kh&ocirc;ng như mong muốn? Chi ph&iacute; cao, kh&aacute;ch kh&ocirc;ng ra, thiếu minh bạch?</p>
+
+<div style="background:#fff;border-radius:14px;padding:20px 22px;margin-bottom:24px;border-left:6px solid #0084ff;box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+<h3 style="font-size:18px;font-weight:700;margin-bottom:12px;color:#222;">Những vấn đề thường gặp:</h3>
+
+<ul style="text-align:left;font-size:16px;line-height:1.7;padding-left:20px;margin:0;">
+	<li>❌ Kh&ocirc;ng ra kh&aacute;ch d&ugrave; đ&atilde; đầu tư web, chi quảng c&aacute;o nhiều</li>
+	<li>❌ Gi&aacute; mỗi kh&aacute;ch cao hơn đồng nghiệp</li>
+	<li>❌ Kh&oacute; kiểm so&aacute;t, thiếu minh bạch</li>
+</ul>
+</div>
+
+<h3 style="font-size: 20px; font-weight: 800; margin-bottom: 14px; color: rgb(0, 75, 159); text-align: center;"><span style="font-family:times new roman,times,serif;">WEBXE &ndash; GIẢI PH&Aacute;P TỐI ƯU D&Agrave;NH CHO SALE &Ocirc; T&Ocirc;. </span></h3>
+
+<h3 style="font-size: 20px; font-weight: 800; margin-bottom: 14px; color: rgb(0, 75, 159); text-align: center;"><span style="font-family:times new roman,times,serif;">Ch&uacute;ng t&ocirc;i thay bạn quản l&yacute; web, chạy quảng c&aacute;o</span></h3>
+
+<div style="display:flex;flex-direction:column;gap:14px;text-align:left;font-size:16px;line-height:1.7;color:#333;">
+<div style="background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);"><b>🔒 An to&agrave;n:</b> Hệ thống chỉ trừ tiền khi c&oacute; kh&aacute;ch.</div>
+
+<div style="background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);"><b>⚡ Hiệu quả vượt trội:</b> Giảm mạnh chi ph&iacute; mỗi kh&aacute;ch.</div>
+
+<div style="background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);"><b>⭐ Chuy&ecirc;n nghiệp:</b> Kh&aacute;ch h&agrave;ng độc quyền &ndash; Mỗi đại l&yacute; 1 Sale-&nbsp;kh&ocirc;ng chia sẻ.</div>
+
+<div style="background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);"><b>🚀 Nhanh ch&oacute;ng &ndash; tiện lợi</b></div>
+
+<div style="background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);"><b>📊 Minh bạch tuyệt đối:</b> Thấy r&otilde; to&agrave;n bộ lịch sử kh&aacute;ch & giao dịch.</div>
+</div>
+
+<p style="text-align: center;"><span style="font-size:16px;">Xin li&ecirc;n hệ qua Zalo để được tư vấn cụ thể!</span></p>
+</div>
+	</div>
+	<div class="col-md-6 col-sm-12 col-video-form">
+		  
+<div class="box_center_element">
+        <div class="title_bar_right bar_web_bgr text-uppercase">_gui_yeu_cau_bao_gia</div>
+    <div class="box_form_item_module">
+        <div id="form_item_module_success_center"></div>
+        <form action="/send-form-info" name="frm_item_ycbg_module" role="form" enctype="multipart/form-data" data-name="_gui_yeu_cau_bao_gia" data-position="center" method="post">          <input type="hidden" name="frm_item_id" value="1" />                    <div class="form-group clearfix form-item-name">
+              <input type="text" name="frm_item_name_1" class="form-control" placeholder="_ho_ten _bat_buoc" />              <div id="errorFrmItemNamecenter" class="text-danger"></div>
+          </div>
+                    
+                    <div class="form-group clearfix form-item-phone">
+              <input type="text" name="frm_item_phone_1" class="form-control" placeholder="_dien_thoai _bat_buoc" />              <div id="errorFrmItemPhonecenter" class="text-danger"></div>
+          </div>
+                    
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+                    
+          
+                    
+                    <div class="form-group clearfix">
+              <button type="submit" class="btn btn-block btn-warning ladda-button text-uppercase btn-send-ycbg bar_web_bgr" data-position="center" data-style="slide-left"><span class="ladda-label">_gui_yeu_cau_bao_gia_ngay</span></button>
+          </div>
+        </form>    </div>
+  </div>		<div class="text-center box-image-article-home">
+		<img src="/files/default/001/manhquanfewnjpqk5u53ux57_qa5BaLNG.png" class="image_article_home" />	</div>
+			</div>
+</div>
+</div>
+                                <div class="box_post">
+                                <div class="title_bar bar_web_bgr text-uppercase"><h2>Cảm ơn 500+ đối tác là Sale ô tô trên toàn quốc</h2></div>
+                        <div class="post_static clearfix">
+                                                <div class="post_static_content"><div id="webxe-partner-wrapper" style="font-family: 'Segoe UI', Roboto, sans-serif;">
+<div id="partner-list">Đang kết nối hệ thống...</div>
+</div>
+<style type="text/css">/* Grid danh sách ngoài */
+    .sale-grid { display: grid; gap: 15px 12px; grid-template-columns: repeat(6, 1fr); }
+    @media (max-width: 1200px) { .sale-grid { grid-template-columns: repeat(4, 1fr); } }
+    @media (max-width: 768px) { .sale-grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .sale-item { display: flex; align-items: center; cursor: pointer; padding: 5px 0; transition: 0.3s; }
+    .sale-item:hover { transform: scale(1.05); }
+    .sale-avatar { width: 55px; height: 55px; border-radius: 50%; object-fit: cover; margin-right: 12px; border: 1px solid #eee; }
+    .sale-name { font-size: 1.1rem; font-weight: 800; color: #000; }
+    .sale-agency { font-size: 0.8rem; color: #d32f2f; font-weight: 600; }
+
+    /* VISIT CARD CAO CẤP */
+    #webxeModal { 
+        display: none; position: fixed; z-index: 10001; 
+        left: 0; top: 0; width: 100%; height: 100%; 
+        background: rgba(0,0,0,0.8); backdrop-filter: blur(8px);
+    }
+    
+    .visit-card {
+        background: #fff;
+        margin: 12vh auto;
+        width: 90%; max-width: 420px;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        position: relative;
+        animation: cardFade 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    @keyframes cardFade { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+
+    /* Họa tiết chìm và Header */
+    .card-bg-pattern {
+        position: absolute; top: 0; left: 0; width: 100%; height: 140px;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        z-index: 1;
+    }
+    .card-bg-pattern::after {
+        content: ""; position: absolute; top: -50px; right: -50px;
+        width: 150px; height: 150px; background: rgba(211, 47, 47, 0.05);
+        border-radius: 50%;
+    }
+
+    .card-header-content {
+        position: relative; z-index: 2; padding: 20px 25px;
+        display: flex; justify-content: space-between; align-items: flex-start;
+    }
+    
+    .card-agency-title { 
+        font-size: 0.85rem; font-weight: 700; color: #555; 
+        max-width: 70%; text-transform: uppercase; line-height: 1.3;
+    }
+
+    .card-logo-box img { max-height: 40px; max-width: 100px; object-fit: contain; }
+
+    .card-body { position: relative; z-index: 3; padding: 0 30px 30px 30px; margin-top: -20px; }
+    
+    .avatar-wrapper { position: relative; display: inline-block; }
+    .card-avatar-img {
+        width: 120px; height: 120px; border-radius: 50%;
+        border: 6px solid #fff; object-fit: cover;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .card-main-info { margin-top: 15px; text-align: left; }
+    .card-sale-name { font-size: 1.8rem; font-weight: 900; color: #1a1a1a; line-height: 1; }
+    .card-sale-rank { font-size: 1rem; color: #d32f2f; font-weight: 700; margin-bottom: 20px; }
+
+    .card-contact-list { border-top: 1px solid #f0f0f0; padding-top: 20px; }
+    .contact-item { display: flex; align-items: center; margin-bottom: 12px; font-size: 0.95rem; color: #444; }
+    .contact-item b { width: 85px; color: #888; font-weight: 600; }
+    .contact-item a { color: #d32f2f; text-decoration: none; font-weight: 700; }
+
+    .btn-visit {
+        display: block; width: 100%; padding: 16px; border-radius: 15px;
+        background: linear-gradient(to right, #e53935, #d32f2f);
+        color: #fff !important; text-align: center; font-weight: 800;
+        text-decoration: none !important; text-transform: uppercase;
+        margin-top: 20px; box-shadow: 0 8px 20px rgba(211, 47, 47, 0.3);
+        transition: 0.3s;
+    }
+    .btn-visit:hover { transform: translateY(-3px); box-shadow: 0 12px 25px rgba(211, 47, 47, 0.4); }
+</style>
+<script>
+(function() {
+    const URL_API = "https://script.google.com/macros/s/AKfycbxCtkqD6xsLKjJh40rJ-xo0rRhQAlocl2L0nvHvJ3e-weFIRKSxJh3exQ-wvvo6PogZNA/exec";
+    const BRAND_LOGOS = {
+        "Vinfast": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/VinFast_logo.svg/1200px-VinFast_logo.svg.png",
+        "Toyota": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Toyota_car_logo.svg/1024px-Toyota_car_logo.svg.png",
+        "Hyundai": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_Motor_Company_logo.svg/2560px-Hyundai_Motor_Company_logo.svg.png",
+        "Kia": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/KIA_logo_2021.svg/2560px-KIA_logo_2021.svg.png",
+        "Mazda": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mazda_logo_%282018%29.svg/2560px-Mazda_logo_%282018%29.svg.png",
+        "Ford": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo.svg/2560px-Ford_logo.svg.png",
+        "Mitsubishi": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mitsubishi_logo.svg/1200px-Mitsubishi_logo.svg.png",
+        "Honda": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Honda_Logo.svg/2560px-Honda_Logo.svg.png",
+        "Mg": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/MG_Motor_logo.svg/1200px-MG_Motor_logo.svg.png"
+    };
+
+    async function load() {
+        const div = document.getElementById('partner-list');
+        try {
+            const res = await fetch(URL_API);
+            const data = await res.json();
+            if (!data) return;
+            div.innerHTML = "";
+            
+            const uniqueBrands = [...new Set(data.map(item => item["Hãng"]))].filter(Boolean);
+            uniqueBrands.forEach(brand => {
+                const list = data.filter(s => s["Hãng"] === brand);
+                let html = `<div style="margin-bottom:40px">
+                    <div style="font-weight:900; color:#d32f2f; margin-bottom:15px; text-transform:uppercase; border-left:4px solid #d32f2f; padding-left:12px">| ${brand}</div>
+                    <div class="sale-grid">`;
+                list.forEach(item => {
+                    const itemData = encodeURIComponent(JSON.stringify(item));
+                    html += `
+                        <div class="sale-item" onclick="viewCard('${itemData}')">
+                            <img src="${item["Ảnh"] || 'https://via.placeholder.com/150'}" class="sale-avatar">
+                            <div>
+                                <div class="sale-name">${item["Tên"] || ""}</div>
+                                <div class="sale-agency">${item["Đại lý"] || ""}</div>
+                            </div>
+                        </div>`;
+                });
+                html += `</div></div>`;
+                div.innerHTML += html;
+            });
+        } catch (e) { console.error(e); }
+    }
+
+    window.viewCard = function(encoded) {
+        const item = JSON.parse(decodeURIComponent(encoded));
+        const logo = BRAND_LOGOS[item["Hãng"]] || "";
+        const webLink = item["Website"] && item["Website"].startsWith('http') ? item["Website"] : `http://${item["Website"]}`;
+
+        document.getElementById("webxeModal").style.display = "block";
+        document.getElementById("modal-content").innerHTML = `
+            <div class="visit-card">
+                <div class="card-bg-pattern"></div>
+                <div class="card-header-content">
+                    <div class="card-agency-title">${item["Đại lý"] || ""}</div>
+                    <div class="card-logo-box">
+                        ${logo ? `<img src="${logo}" onerror="this.style.display='none'">` : ""}
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="avatar-wrapper">
+                        <img src="${item["Ảnh"] || 'https://via.placeholder.com/150'}" class="card-avatar-img">
+                    </div>
+                    <div class="card-main-info">
+                        <div class="card-sale-name">${item["Tên"] || ""}</div>
+                        <div class="card-sale-rank">Phụ trách kinh doanh</div>
+                    </div>
+                    <div class="card-contact-list">
+                        <div class="contact-item"><b>Hotline:</b> <a href="tel:${item["Hotline"]}">${item["Hotline"] || ""}</a></div>
+                        <div class="contact-item"><b>Khu vực:</b> <span>${item["Tỉnh"] || ""}</span></div>
+                        <div class="contact-item"><b>Email:</b> <span style="font-size:0.85rem">${item["Email"] || ""}</span></div>
+                    </div>
+                    <a href="${webLink}" target="_blank" class="btn-visit">XEM TRANG CÁ NHÂN</a>
+                </div>
+                <span onclick="closeCard()" style="position:absolute; top:15px; right:20px; z-index:10; cursor:pointer; font-size:30px; color:#aaa;">×</span>
+            </div>
+        `;
+    };
+
+    window.closeCard = () => document.getElementById("webxeModal").style.display = "none";
+    load();
+})();
+</script>
+<div id="webxeModal" onclick="if(event.target==this) closeCard()">
+<div id="modal-content">&nbsp;</div>
+</div>
+</div>
+                                            </div>
+             </div>
+                                                    </div>
+            </div>
+        </section>
+        
+    
+            
+</div>
+    <div id="mobile-nav">
+    <div id="nav-menu">
+        <div id="cssmenu"> <a id="moblogo" href="/"> <img src="files/default/001/logow_CJJh197C.png" alt="Webxe.vn. Cho thuê web bán ô tô, Chạy quảng cáo Google mảng xe chuyên nghiệp, Giải pháp bán hàng hiệu quả nhất. " class="initial loading"> </a>
+                        <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="menu-item current-menu-parent"><a href="/">Trang chủ<span class="arrow"></span></a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="menu-item"><a href="/thiet-ke-web-xe">THIẾT KẾ WEB XE<span class="arrow"></span></a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="menu-item"><a href="/seo-web">SEO WEB<span class="arrow"></span></a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="menu-item"><a href="/quang-cao-google">QUẢNG CÁO GOOGLE<span class="arrow"></span></a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="menu-item"><a href="/seo-map">SEO MAP<span class="arrow"></span></a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="menu-item"><a href="/lien-he">Liên hệ<span class="arrow"></span></a>
+                                    </li>
+                            </ul>
+                    </div>
+    </div>
+    </div>	<script>var flagModal = 0;</script>
+
+						<a href="http://zalo.me/0982052555" target="_blank" class="numberzalo" rel="nofollow">
+			<img src="/assets/images/zalo.png" alt="http://zalo.me/0982052555">
+		</a>
+					<div id="open-ycbg-home">
+	<a href="javascript:;" rel="nofollow">
+		<img src="/assets/images/dangkylaithu.jpg" alt="ycbg">
+	</a>
+</div>
+<p id="back-top">
+    <a href="#top"><span></span></a>
+</p>
+
+  <div id="modalItemYcbg" class="modal-customize modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal"></button>
+      <div class="modal-body">
+                    <div class="row row-flex">
+                                  <div class="col-md-6 hidden-xs hidden-sm img_popup_form_item">
+              <img src="/files/default/001/f_3XsFbiqH.jpg" />            </div>
+                        <div class="col-md-6 box_popup_form_item">
+                <div class="box_popup_form_item_input">
+                  <h4 class="modal-title text-center" id="lblModelTitle">_gui_yeu_cau_bao_gia</h4>
+                  <form action="/send-form-info" name="frm_item_ycbg_1" role="form" data-name="_gui_yeu_cau_bao_gia" method="post">                    <input type="hidden" name="frm_item_id" value="1" />                                        
+                    
+                                        <div class="form-group row clearfix">
+                                                <div class="col-md-6 col-xs-6">
+                            <input type="text" name="frm_item_name_1" class="form-control" placeholder="_ho_ten" />                        </div>
+                        
+                                            </div>
+                    
+                    
+                                        <div class="form-group row clearfix">
+                                                <div class="col-md-6 col-xs-6">
+                            <input type="text" name="frm_item_phone_1" class="form-control" placeholder="_dien_thoai (*)" />                            <div class="error-form-item-phone text-danger"></div>
+                        </div>
+                        
+                                            </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                        <div class="form-group clearfix">
+                        <button class="btn btn-block btn-warning ladda-button" id="btn-send-ycbg" data-style="slide-left"><span class="ladda-label">_gui_yeu_cau_bao_gia_ngay</span></button>
+                    </div>
+                  </form>                </div>
+            </div>
+                    </div>
+                </div>
+    </div>
+
+  </div>
+</div><div class="modal fade" id="supportRequestModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="alo-title">
+            <p>_yeu_cau_tu_van_qua_dien_thoai</p>
+        </div>
+        <div id="mic_support_message_frm_mic_support"></div>
+        <div class="frm_mic_support">
+            <form action="/send-customer-message" name="frm_mic_support" role="form" method="post">                                <div class="form-group clearfix">
+                    <input type="text" name="c_mgs_name" class="form-control" placeholder="_xin_moi_nhap_ho_ten" />                    <div class="errorMicName text-danger"></div>
+                </div>
+                                
+                                <div class="form-group clearfix">
+                    <input type="text" name="c_mgs_phone" class="form-control" placeholder="_vui_long_nhap_so_dien_thoai_cua_ban" />                    <div class="errorMicPhone text-danger"></div>
+                </div>
+                
+                                <div class="form-group clearfix">
+                  <button class="btn btn-block btn-warning ladda-button btn-send-mic bar_web_bgr" data-form="frm_mic_support" data-style="slide-left"><span class="ladda-label">_gui_yeu_cau</span></button>
+              </div>
+            </form>        </div>
+      </div>
+      
+    </div>
+  </div>
+</div><div class="modal fade" id="fastRegisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="alo-title">
+            <p>_dang_ky_nhanh</p>
+        </div>
+        <form action="/send-form-info" name="frm_fast_register" role="form" data-name="_dang_ky_nhanh" method="post">            <input type="hidden" name="frm_item_id" value="2" />                                    <div class="form-group clearfix form-fast-register-name">
+                <input type="text" name="frm_item_name_2" class="form-control" placeholder="_ho_ten _bat_buoc" />                <div id="errorFrmFastRegName" class="text-danger"></div>
+            </div>
+            
+                        <div class="form-group clearfix form-fast-register-address">
+                <input type="text" name="frm_item_address_2" class="form-control" placeholder="_dia_chi" />            </div>
+            
+                        <div class="form-group clearfix form-fast-register-phone">
+                <input type="text" name="frm_item_phone_2" class="form-control" placeholder="_dien_thoai _bat_buoc" />                <div id="errorFrmFastRegPhone" class="text-danger"></div>
+            </div>
+            
+            
+                            <div class="form-group clearfix form-item-popup-class">
+                    <div class="row row-flex">
+                    <div class="col-md-6"><select name="frm_item_class_2" class="form-control">
+	<option selected="selected" value="">_chon_lop</option>
+	<option value="_lop_1">_lop_1</option>
+	<option value="_lop_2">_lop_2</option>
+	<option value="_lop_3">_lop_3</option>
+	<option value="_lop_4">_lop_4</option>
+	<option value="_lop_5">_lop_5</option>
+	<option value="_lop_6">_lop_6</option>
+	<option value="_lop_7">_lop_7</option>
+	<option value="_lop_8">_lop_8</option>
+	<option value="_lop_9">_lop_9</option>
+	<option value="_lop_10">_lop_10</option>
+	<option value="_lop_11">_lop_11</option>
+	<option value="_lop_12">_lop_12</option>
+	<option value="_on_dai_hoc">_on_dai_hoc</option>
+	<option value="_lop_nang_khieu">_lop_nang_khieu</option>
+	<option value="_lop_ngoai_ngu">_lop_ngoai_ngu</option>
+	<option value="_lop_khac">_lop_khac</option>
+	<option value="_lop_la">_lop_la</option>
+	<option value="_he_dai_hoc">_he_dai_hoc</option>
+</select></div>
+                    </div>
+                </div>
+                <div id="errorFrmFastRegClass" class="text-danger"></div>
+            
+            
+            
+            
+            
+                        
+                        <div class="form-group clearfix">
+                <button class="btn btn-block btn-warning ladda-button btn-send-form-fast-register bar_web_bgr" data-style="slide-left"><span class="ladda-label">_nhan_lop</span></button>
+            </div>
+            </form>      </div>
+      
+    </div>
+  </div>
+</div><input type="hidden" name="language" value="vi">
+<input type="hidden" name="languageMessage" value="vi">
+<input type="hidden" id="visitor_id" name="visitor_id" value="">
+<input type="hidden" id="fingerprint" name="fingerprint" value="">
+  <div id="modal-popup-ycbg" class="modal-customize modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal"></button>
+      <div class="modal-body">
+          <div class="row row-flex">
+              <div class="col-md-6 hidden-xs hidden-sm img_popup_form_item">
+                <img src="/files/default/001/f_3XsFbiqH.jpg" />              </div>
+              <div class="col-md-6 box_popup_form_item">
+                  <div class="box_popup_form_item_input">
+                    <h4 class="modal-title text-center" id="lblModelTitle">_gui_yeu_cau_bao_gia</h4>
+                    <form action="/send-form-info" name="frm_item_ycbg_1" role="form" data-name="_gui_yeu_cau_bao_gia" method="post">                      <input type="hidden" name="frm_item_id" value="1" />                      
+                                            <div class="form-group row clearfix">
+                                                    <div class="col-md-6 col-xs-6">
+                              <input type="text" name="frm_item_name_1" class="form-control" placeholder="_ho_ten" />                          </div>
+                          
+                                                </div>
+                      
+                      
+                                            <div class="form-group row clearfix">
+                                                    <div class="col-md-6 col-xs-6">
+                              <input type="text" name="frm_item_phone_1" class="form-control" placeholder="_dien_thoai (*)" />                              <div class="error-form-item-phone text-danger"></div>
+                          </div>
+                          
+                                                </div>
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                                            <div class="form-group clearfix">
+                          <button class="btn btn-block btn-warning ladda-button text-uppercase " id="btn-send-ycbg-1" data-style="slide-left"><span class="ladda-label">_gui_yeu_cau_bao_gia_ngay</span></button>
+                      </div>
+                    </form>                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div><script defer="defer" src="/frontend/js/all.min.js?time=1781184411"></script>
+<script type="text/javascript" src="/frontend/js/resize.js"></script>
+
+<script>
+    let visitorId = sessionStorage.getItem('visitor_id');
+    let fingerprint = sessionStorage.getItem('fingerprint');
+
+    if (!visitorId || !fingerprint) {
+        let script = document.createElement('script');
+        script.src = "https://openfpcdn.io/fingerprintjs/v4/iife.min.js";
+        script.onload = function () {
+            FingerprintJS.load()
+                .then(fp => fp.get())
+                .then(result => {
+                    visitorId = result.visitorId;
+                    fingerprint = JSON.stringify(result.components);
+
+                    sessionStorage.setItem('visitor_id', visitorId);
+                    sessionStorage.setItem('fingerprint', fingerprint);
+                })
+                .catch(err => {
+                    console.error('FingerprintJS error:', err);
+                });
+        };
+        document.body.appendChild(script);
+    }
+</script>
+
+    <style>
+.hotline-debug2{bottom:5px;position:fixed;right:0;text-align:center;z-index:99999}
+.hotline-debug2 a{color:#fff;font-weight:800}
+.hotline-debug2{bottom:5px;position:fixed;right:0;text-align:center;z-index:99999}
+.hotline-debug2 a{color:#fff;font-weight:800}
+@media only screen and (max-width: 600px) {
+  .hotline-debug2 {
+    bottom: 40px;
+  }
+}
+</style>
+<div class="hotline-debug2">
+    <p class="icon-phone"><a href="javascript:;" rel="nofollow" style="display:block"> <img alt="" height="0px" src="https://webxe.vn/uploads/1514/article_home/1714/gui-yeu-cau-bao-gia.jpg" style="float:right" width="100%"></a></p>
+</div>
+
+<div class="copyright group">
+  <div class="container group copyright-content">
+   <div class="row">
+    <div class="col-md-9">
+      <div class="copy-right">Copyright© 2026</div>
+    </div>
+    <div class="col-md-3">
+      <div class="designed">Designed by @webxe 2016-2026</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4TNDK49"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ47RX65"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<script>
+window._startTime = Date.now();
+window._ready = false;
+
+// 1️⃣ Detect device
+function detectDevice(){
+  const ua = navigator.userAgent.toLowerCase();
+  return (/mobile|android|iphone|ipad|tablet/.test(ua)) ? "Mobile" : "Desktop";
+}
+
+// 2️⃣ Detect traffic source
+function detectTrafficSource(ref){
+  if(!ref) return "Direct";
+  ref = ref.toLowerCase();
+  if(ref.includes("facebook.com")) return "Facebook";
+  if(ref.includes("tiktok.com")) return "TikTok";
+  if(ref.includes("zalo.me")) return "Zalo";
+  if(ref.includes("utm_") || ref.includes("gclid") || ref.includes("fbclid")) return "Ads";
+  if(ref.includes("google.") || ref.includes("bing.")) return "Organic Search";
+  return "Other";
+}
+
+// 3️⃣ Gửi dữ liệu bằng FormData (sendBeacon + fallback fetch no-cors)
+function sendPayload(eventType, extra=""){
+  if(!window._ready) return;
+
+  const data = {
+    event: eventType,
+    ip: window._ip || "",
+    device: window._device || "",
+    timeOnPage: Math.floor((Date.now() - window._startTime)/1000),
+    url: window.location.href,
+    referrer: document.referrer || "",
+    trafficSource: window._trafficSource || "",
+    extra: extra
+  };
+
+  // Chuyển data thành FormData
+  const fd = new FormData();
+  for(const k in data) fd.append(k, data[k]);
+
+  try {
+    // sendBeacon với FormData
+    const blob = new Blob([new URLSearchParams(data)], { type: "application/x-www-form-urlencoded" });
+    navigator.sendBeacon("https://script.google.com/macros/s/AKfycbyTS0Nitr4wuKQbzFmChaDFquVURlKuPr4JkdB9FqbRSxlhoXjv3Sp7I4uacevhBV8c/exe  c", blob);
+    return;
+  } catch(e){}
+
+  // fallback fetch no-cors
+  fetch("https://script.google.com/macros/s/AKfycbyTS0Nitr4wuKQbzFmChaDFquVURlKuPr4JkdB9FqbRSxlhoXjv3Sp7I4uacevhBV8c/exec", {
+    method: "POST",
+    body: fd,
+    mode: "no-cors",
+    keepalive: true
+  });
+}
+
+// 4️⃣ Lấy IP miễn phí 1 lần từ ipify
+fetch("https://api.ipify.org?format=json")
+.then(r=>r.json())
+.then(r=>{
+  window._ip = r.ip || "";
+  window._device = detectDevice();
+  window._trafficSource = detectTrafficSource(document.referrer);
+  window._ready = true;
+  sendPayload("VIEW_PAGE"); // gửi event xem trang
+})
+.catch(err=>{
+  window._ip = "";
+  window._device = detectDevice();
+  window._trafficSource = detectTrafficSource(document.referrer);
+  window._ready = true;
+  sendPayload("VIEW_PAGE_NO_IP");
+});
+
+// 5️⃣ Click vào số điện thoại
+document.addEventListener("click", function(e){
+  const a = e.target.closest("a");
+  if(a && a.href && a.href.startsWith("tel:")){
+    const tel = a.href.replace("tel:","");
+    sendPayload("CLICK_TEL", tel);
+  }
+});
+
+// 6️⃣ Trang thanh-cong
+if(window.location.href.includes("thanh-cong")){
+  setTimeout(()=>sendPayload("PAGE_SUCCESS"), 200);
+}
+
+// 7️⃣ Khi rời trang (visibilitychange)
+document.addEventListener("visibilitychange", function(){
+  if(document.visibilityState==="hidden"){
+    sendPayload("LEAVE_PAGE");
+  }
+});
+
+// 8️⃣ Backup beforeunload
+window.addEventListener("beforeunload", function(){
+  sendPayload("LEAVE_PAGE");
+});
+</script>
+<script>
+document.addEventListener('click', function(event) {
+    // 1. Tự động tìm phần tử gần nhất có thuộc tính onclick (sửa lỗi click trúng thẻ span/icon bên trong nút)
+    var target = event.target.closest('[onclick]');
+    
+    if (target) {
+        var onclickText = target.getAttribute('onclick');
+        
+        // 2. Kiểm tra nếu thuộc tính onclick có chứa hàm "sendLeadData"
+        if (onclickText && onclickText.includes('sendLeadData')) {
+            
+            // 3. Kiểm tra xem nút này có nằm trong khung chat id "car-chat-popup" không
+            var chatPopup = target.closest('#car-chat-popup');
+            
+            if (chatPopup) {
+                // 4. Kiểm tra ô nhập số điện thoại có dữ liệu hay không
+                var phoneInput = chatPopup.querySelector('.form-sdt');
+                var phoneValue = phoneInput ? phoneInput.value.trim() : '';
+                
+                // Nếu có nhập dữ liệu, tiến hành kích hoạt lệnh gửi về GA4
+                if (phoneValue.length > 0) {
+                    
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'generate_lead_chat', {
+                            'send_to': 'G-N88V2GRCQ6', // Mã đo lường của bạn
+                            'chat_id': 'car-chat-popup'
+                        });
+                        console.log('--- GA4 CHAT LEAD SENT SUCCESS ---');
+                    } else {
+                        console.error('LỖI: Không tìm thấy thư viện gtag trên trang web của bạn!');
+                    }
+                } else {
+                    console.warn('Bấm nút gửi nhưng ô số điện thoại đang để trống.');
+                }
+            }
+        }
+    }
+}, true); // Giữ tham số true để ưu tiên bắt sự kiện trước khi code chat xử lý
+</script></body>

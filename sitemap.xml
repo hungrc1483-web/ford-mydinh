@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- =============================================
+       TRANG CHU
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- =============================================
+       FORD EVEREST PLATINUM — UU TIEN CAO NHAT
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-everest-platinum-4x2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-everest-platinum-4x4</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-everest-platinum-may-xang</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-everest-my-dinh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/everest-7-cho</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.93</priority>
+  </url>
+
+  <!-- =============================================
+       FORD RANGER / RAPTOR
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-ranger-my-dinh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ban-tai-ranger</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ranger-raptor-my-dinh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-raptor</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.87</priority>
+  </url>
+
+  <!-- =============================================
+       FORD TERRITORY
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-territory-my-dinh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.87</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/territory-5-cho</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- =============================================
+       FORD EXPLORER
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/explorer-7-cho</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- =============================================
+       FORD TRANSIT
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/ford-transit-my-dinh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/transit-16-cho</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <!-- =============================================
+       TRANG CHUC NANG CHINH
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/gia-xe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/sale</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/dang-ky-lai-thu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/san-pham</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/tin-tuc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/gioi-thieu</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/lien-he</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- =============================================
+       CAP NHAT / TIN TUC
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/cap-nhat</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/update</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- =============================================
+       BAI VIET / BLOG
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet3</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet4</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet5</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet7</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/baiviet8</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
+  <!-- =============================================
+       PHAP LY
+  ================================================ -->
+  <url>
+    <loc>https://ford-mydinh.io.vn/chinh-sach-bao-mat</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://ford-mydinh.io.vn/dieu-khoan-dich-vu</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+</urlset>

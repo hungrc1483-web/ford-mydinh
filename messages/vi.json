@@ -1,0 +1,14 @@
+{
+  "button_buy": "Yêu cầu báo giá",
+  "button_contact": "Liên hệ ngay",
+  "button_test_drive": "Đăng ký lái thử",
+  "success_message": "Đăng ký thành công!",
+  "form_name": "Họ và tên",
+  "form_phone": "Số điện thoại",
+  "form_email": "Email",
+  "form_message": "Nội dung",
+  "form_submit": "Gửi thông tin",
+  "loading": "Đang xử lý...",
+  "error_required": "Vui lòng điền đầy đủ thông tin",
+  "error_phone": "Số điện thoại không hợp lệ"
+}
