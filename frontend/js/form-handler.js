@@ -102,9 +102,31 @@
 
       sendViaEmailJS(formData, function (ok) {
         if (ok) {
+          // Gửi sự kiện chuyển đổi Google Ads trực tiếp (nếu có gtag)
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              'send_to': 'AW-16915601605',
+              'event_category': 'Form',
+              'event_label': formType
+            });
+          }
+          
+          // Đẩy sự kiện lên GTM dataLayer
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            'event': 'form_submission_success',
+            'form_type': formType
+          });
+
+          // Gọi callback thành công gốc
           if (opts.success) {
             opts.success({ success: true, message: "Gửi thành công" });
           }
+
+          // Chuyển hướng sang trang cảm ơn sau 1 giây
+          setTimeout(function() {
+            window.location.href = '/thank-you';
+          }, 1000);
         } else {
           if (opts.error) {
             opts.error({}, 'error', 'Network error');
