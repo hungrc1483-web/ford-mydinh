@@ -104,8 +104,10 @@
         if (ok) {
           // Gửi sự kiện chuyển đổi Google Ads trực tiếp (nếu có gtag)
           if (typeof gtag === 'function') {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-16915601605/HoXDCJH7gO0ZEL62lLo-'
+            });
             gtag('event', 'generate_lead', {
-              'send_to': 'AW-16915601605',
               'event_category': 'Form',
               'event_label': formType
             });

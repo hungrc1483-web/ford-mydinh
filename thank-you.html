@@ -222,6 +222,12 @@ document.addEventListener('click', function(event) {
     });
   });
 </script>
+<!-- Event snippet for Gửi biểu mẫu đăng ký conversion page -->
+<script>
+  gtag('event', 'conversion', {
+    'send_to': 'AW-16915601605/HoXDCJH7gO0ZEL62lLo-'
+  });
+</script>
 </head>
 <body>
 <div id="page_contact_index">
@@ -394,7 +400,7 @@ document.addEventListener('click', function(event) {
                 // Gửi sự kiện chuyển đổi Google Ads khi truy cập trang cảm ơn
                 if (typeof gtag === 'function') {
                     gtag('event', 'conversion', {
-                        'send_to': 'AW-16915601605',
+                        'send_to': 'AW-16915601605/HoXDCJH7gO0ZEL62lLo-',
                         'event_callback': function() {
                             console.log('Google Ads form submission conversion fired successfully.');
                         }
