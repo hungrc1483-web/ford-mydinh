@@ -1,7 +1,65 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/send-form-info", "destination": "/api/send-form-info" },
-    { "source": "/send-customer-message", "destination": "/api/send-form-info" }
+    {
+      "source": "/send-form-info",
+      "destination": "/api/send-form-info"
+    },
+    {
+      "source": "/send-customer-message",
+      "destination": "/api/send-form-info"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/baiviet3",
+      "destination": "/tinh-tra-gop-xe-ford-hang-thang",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet3.html",
+      "destination": "/tinh-tra-gop-xe-ford-hang-thang",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet4",
+      "destination": "/gia-lan-banh-xe-ford-2026",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet4.html",
+      "destination": "/gia-lan-banh-xe-ford-2026",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet5",
+      "destination": "/mua-xe-o-to-dung-ten-vo-hay-chong",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet5.html",
+      "destination": "/mua-xe-o-to-dung-ten-vo-hay-chong",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet7",
+      "destination": "/luu-y-khi-mua-xe-ford-tra-gop",
+      "permanent": true
+    },
+    {
+      "source": "/baiviet7.html",
+      "destination": "/luu-y-khi-mua-xe-ford-tra-gop",
+      "permanent": true
+    },
+    {
+      "source": "/sale",
+      "destination": "/bang-gia-tham-khao-xe-ford",
+      "permanent": true
+    },
+    {
+      "source": "/sale.html",
+      "destination": "/bang-gia-tham-khao-xe-ford",
+      "permanent": true
+    }
   ]
 }
